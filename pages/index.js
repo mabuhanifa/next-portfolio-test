@@ -1,5 +1,6 @@
 import useTheme from "next-theme";
 import { useEffect, useState } from "react";
+import Nav from "../components/Nav";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -21,8 +22,7 @@ export default function Home() {
   };
   return (
     <div className="text-gray-700 dark:text-white dark:bg-gray-700 bg-gray-200">
-      <div>next app</div>
-      <button onClick={themeChanger}>Change Theme</button>
+      <Nav/>
     </div>
   );
 }

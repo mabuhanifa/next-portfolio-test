@@ -1,15 +1,9 @@
-import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsSun } from "react-icons/bs";
 import { FaMoon } from "react-icons/fa";
 
-export default function Nav({ handleSwitch }) {
-  const [night, setNight] = useState(false);
-  const [menu, setMenu] = useState(true);
-  const switchTheme = () => {
-    setNight(!night);
-    handleSwitch();
-  };
+export default function Nav() {
+  const { systemTheme, theme, setTheme } = useTheme();
   return (
     <div className="m-10 sm:m-0 dark:text-gray-300">
       <nav className="flex flex-col sm:flex-row justify-between font-semibold">
