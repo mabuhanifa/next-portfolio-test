@@ -1,17 +1,35 @@
+import useTheme from "next-theme";
+import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsSun } from "react-icons/bs";
 import { FaMoon } from "react-icons/fa";
 
 export default function Nav() {
+  const [mounted, setMounted] = useState(false);
+
   const { systemTheme, theme, setTheme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const themeChanger = () => {
+    if (!mounted) return null;
+    const currentTheme = theme === "system" ? systemTheme : theme;
+    if (currentTheme === "dark") {
+      setTheme("light");
+    } else {
+      setTheme("dark");
+    }
+  };
   return (
     <div className="m-10 sm:m-0 dark:text-gray-300">
       <nav className="flex flex-col sm:flex-row justify-between font-semibold">
         <div className="mb-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
-            <div className="sm:hidden" onClick={() => setMenu(!menu)}>
-              {menu ? (
+            <div className="sm:hidden" onClick={setTheme}>
+              {theme ? (
                 <AiOutlineClose className="text-xl" />
               ) : (
                 <AiOutlineMenu className="text-xl" />
@@ -32,9 +50,9 @@ export default function Nav() {
           <a>Contact</a>
           <div
             className="flex justify-center items-center cursor-pointer "
-            onClick={switchTheme}
+            onClick={themeChanger}
           >
-            {night ? (
+            {theme ? (
               <BsSun className="inline text-2xl" />
             ) : (
               <FaMoon className="inline text-2xl" />
@@ -43,7 +61,7 @@ export default function Nav() {
         </div>
         <div
           className={
-            menu
+            theme
               ? "sm:hidden flex flex-col sm:flex-row justify-between items-center gap-10"
               : "hidden"
           }
@@ -56,9 +74,9 @@ export default function Nav() {
           <a>Contact</a>
           <div
             className="flex justify-center items-center cursor-pointer "
-            onClick={() => setNight(!night)}
+            onClick={setTheme}
           >
-            {night ? (
+            {theme ? (
               <FaMoon className="inline text-2xl" />
             ) : (
               <BsSun className="inline text-2xl" />
