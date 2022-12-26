@@ -6,6 +6,7 @@ import { FaMoon } from "react-icons/fa";
 
 export default function Nav() {
   const [mounted, setMounted] = useState(false);
+  const [menu, setMenu] = useState(false);
 
   const { systemTheme, theme, setTheme } = useTheme();
 
@@ -28,8 +29,8 @@ export default function Nav() {
         <div className="mb-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
-            <div className="sm:hidden" onClick={setTheme}>
-              {theme ? (
+            <div className="sm:hidden" onClick={() => setMenu(!menu)}>
+              {menu ? (
                 <AiOutlineClose className="text-xl" />
               ) : (
                 <AiOutlineMenu className="text-xl" />
@@ -52,7 +53,7 @@ export default function Nav() {
             className="flex justify-center items-center cursor-pointer "
             onClick={themeChanger}
           >
-            {theme ? (
+            {theme === "dark" ? (
               <BsSun className="inline text-2xl" />
             ) : (
               <FaMoon className="inline text-2xl" />
@@ -61,7 +62,7 @@ export default function Nav() {
         </div>
         <div
           className={
-            theme
+            menu
               ? "sm:hidden flex flex-col sm:flex-row justify-between items-center gap-10"
               : "hidden"
           }
@@ -74,12 +75,12 @@ export default function Nav() {
           <a>Contact</a>
           <div
             className="flex justify-center items-center cursor-pointer "
-            onClick={setTheme}
+            onClick={themeChanger}
           >
-            {theme ? (
-              <FaMoon className="inline text-2xl" />
-            ) : (
+            {theme === "dark" ? (
               <BsSun className="inline text-2xl" />
+            ) : (
+              <FaMoon className="inline text-2xl" />
             )}
           </div>
         </div>
