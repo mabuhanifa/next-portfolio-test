@@ -9,6 +9,7 @@ export default function Home() {
   useEffect(() => {
     setMounted(true);
   }, []);
+
   const themeChanger = () => {
     if (!mounted) return null;
     const currentTheme = theme === "system" ? systemTheme : theme;
