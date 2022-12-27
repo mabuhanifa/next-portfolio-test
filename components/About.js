@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="dark:text-gray-300">
       <div>
-        <h1 className="text-2xl font-bold text-gray-700 text-center my-20">
+        <h1 className="text-4xl font-bold text-center pb-10">
           About Me
         </h1>
       </div>
@@ -20,7 +20,7 @@ export default function About() {
           />
         </div>
         <div className="mt-20 col-span-3">
-          <p>
+          <p className="py-5">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Accusantium, placeat culpa. Voluptatem ea facilis totam neque, sit
             iste? Voluptatum minus iure magnam dicta, excepturi quam facilis
