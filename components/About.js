@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { AiOutlineFileText } from "react-icons/ai";
 export default function About() {
@@ -10,9 +11,11 @@ export default function About() {
       </div>
       <div className="sm:grid sm:grid-cols-5 place-content-center">
         <div className="col-span-2 flex justify-center">
-          <img
-            src="https://avatars.githubusercontent.com/u/90899296?v=4"
-            alt=""
+        <Image
+            src="/me.jpg"
+            alt="me"
+            width={384}
+            height={300}
             className="w-96 rounded-xl"
           />
         </div>
