@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import Modal from "./Modal";
 
-export default function Service({ data: { name, info, icon } }) {
+export default function Service({ data }) {
+  const { name, info, icon } = data;
   const Icon = icon;
   const [modal, setModal] = useState(false);
   return (
@@ -21,7 +22,7 @@ export default function Service({ data: { name, info, icon } }) {
         View More <BsArrowRight className="inline text-xl mx-2" />{" "}
       </button>
 
-      <Modal view={modal} setModal={setModal} data={name} />
+      <Modal view={modal} setModal={setModal} data={data} />
     </div>
   );
 }
