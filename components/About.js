@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineFileText } from "react-icons/ai";
 export default function About() {
   return (
-    <div className="p-5 dark:text-gray-300">
+    <div className="dark:text-gray-300">
       <div>
         <h1 className="text-2xl font-bold text-gray-700 text-center my-20">
           About Me

@@ -24,9 +24,9 @@ export default function Nav() {
     }
   };
   return (
-    <div className="m-10 sm:m-0 dark:text-gray-300">
+    <div className=" dark:text-gray-300">
       <nav className="flex flex-col sm:flex-row justify-between font-semibold">
-        <div className="mb-10">
+        <div className="my-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
             <div className="sm:hidden" onClick={() => setMenu(!menu)}>
