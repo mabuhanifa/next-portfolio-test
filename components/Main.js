@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { FiGithub, FiInstagram } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
+import { ImLinkedin } from "react-icons/im";
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { TbSend } from "react-icons/tb";
 
@@ -11,7 +12,7 @@ export default function Main() {
         {/* -----icons----- */}
         <div className="flex flex-col gap-10 text-2xl sm:mr-20">
           <span>
-            <FiInstagram />
+            <ImLinkedin />
           </span>
           <span>
             <FiGithub />
