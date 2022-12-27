@@ -15,7 +15,7 @@ export default function Service({ data }) {
       <p>{info}</p>
       <div className="text-xs mt-5">
         {tech.map((t, i) => (
-          <span key={i} className={` bg-[${t.bg}] m-2 p-1 rounded`}>
+          <span key={i} className={` bg-[${t.bg}] m-2 p-1.5 rounded text-[${t.tx}]`}>
             {t.name}
           </span>
         ))}
