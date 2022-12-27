@@ -20,7 +20,7 @@ export default function Main() {
             <RiFacebookCircleLine />
           </span>
         </div>
-        <div className="sm:hidden w-full flex justify-center items-center mx-10">
+        <div className="sm:hidden w-full flex justify-center items-center px-5">
           <Image
             src="/me.jpg"
             alt="me"
