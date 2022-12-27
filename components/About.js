@@ -16,11 +16,11 @@ export default function About() {
             alt="me"
             width={384}
             height={300}
-            className="w-96 rounded-xl"
+            className="w-96 rounded-xl object-cover"
           />
         </div>
-        <div className="mt-20 col-span-3">
-          <p className="py-5">
+        <div className="mt-20 col-span-3 p-5 ">
+          <p className="text-lg ">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Accusantium, placeat culpa. Voluptatem ea facilis totam neque, sit
             iste? Voluptatum minus iure magnam dicta, excepturi quam facilis
