@@ -14,6 +14,11 @@ export default function Services() {
         "Static Websites are",
       ],
       icon: MdWeb,
+      tech: [
+        { name: "HTML", bg: "#dd4a253f", tx: "#DD4B25" },
+        { name: "CSS", bg: "#254add46", tx: "#254BDD" },
+        { name: "JavaScript", bg: "#efd61d38", tx: "#EFD81D" },
+      ],
     },
     {
       name: "Single Page Application",
@@ -24,6 +29,11 @@ export default function Services() {
         "Static Websites are",
       ],
       icon: IoIosApps,
+      tech: [
+        { name: "HTML", bg: "#dd4a253f", tx: "#DD4B25" },
+        { name: "CSS", bg: "#254add46", tx: "#254BDD" },
+        { name: "JavaScript", bg: "#efd61d38", tx: "#EFD81D" },
+      ],
     },
     {
       name: "Web Application",
@@ -34,6 +44,11 @@ export default function Services() {
         "Static Websites are",
       ],
       icon: FaServer,
+      tech: [
+        { name: "HTML", bg: "#dd4a253f", tx: "#DD4B25" },
+        { name: "CSS", bg: "#254add46", tx: "#254BDD" },
+        { name: "JavaScript", bg: "#efd61d38", tx: "#EFD81D" },
+      ],
     },
   ];
 

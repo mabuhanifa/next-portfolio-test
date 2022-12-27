@@ -3,7 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 import Modal from "./Modal";
 
 export default function Service({ data }) {
-  const { name, info, icon } = data;
+  const { name, info, icon, tech } = data;
   const Icon = icon;
   const [modal, setModal] = useState(false);
   return (
@@ -13,6 +13,13 @@ export default function Service({ data }) {
       </div>
       <h1 className="text-xl font-bold my-5">{name}</h1>
       <p>{info}</p>
+      <div className="text-xs mt-5">
+        {tech.map((t, i) => (
+          <span key={i} className={` bg-[${t.bg}] m-2 p-1 rounded`}>
+            {t.name}
+          </span>
+        ))}
+      </div>
 
       <button
         onClick={() => setModal(true)}
