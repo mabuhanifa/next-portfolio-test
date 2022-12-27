@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FiGithub, FiInstagram } from "react-icons/fi";
 import { RiFacebookCircleLine } from "react-icons/ri";
@@ -20,9 +21,11 @@ export default function Main() {
           </span>
         </div>
         <div className="sm:hidden w-full flex justify-center items-center mx-10">
-          <img
-            src="https://avatars.githubusercontent.com/u/90899296?v=4"
-            alt=""
+          <Image
+            src="/me.jpg"
+            alt="me"
+            width={384}
+            height={300}
             className="w-96 rounded-xl"
           />
         </div>
@@ -36,15 +39,23 @@ export default function Main() {
             illo incidunt autem quia optio soluta atque corrupti! Provident
             accusamus id omnis harum nesciunt blanditiis facilis.
           </p>
-          <button className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5 dark:bg-gray-100 dark:text-gray-700 font-bold">
+          <button className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5 ">
             Say Hello
             <TbSend className="inline mx-2 text-2xl" />
           </button>
         </div>
         <div className="hidden w-full sm:flex justify-center items-center mx-10">
-          <img
+          {/* <img
             src="https://avatars.githubusercontent.com/u/90899296?v=4"
             alt=""
+            className="w-96 rounded-xl"
+          />
+           */}
+          <Image
+            src="/me.jpg"
+            alt="me"
+            width={384}
+            height={300}
             className="w-96 rounded-xl"
           />
         </div>
