@@ -9,6 +9,7 @@ export default function Modal({ view, setModal, data }) {
       setModal((m) => !m);
     }
   };
+
   return (
     <div
       id="container"
@@ -16,7 +17,8 @@ export default function Modal({ view, setModal, data }) {
       onClick={closeModal}
     >
       <div className="border border-gray-700 bg-gray-700 text-white dark:border-white dark:bg-white dark:text-gray-700 rounded-xl p-10 relative">
-        <h1 className="text-2xl font-bold my-10">{name}</h1>
+        <h1 className="text-2xl font-bold mb-10">{name}</h1>
+        <p>{info}</p>
         <ol className="list-decimal px-5">
           {list.map((l, i) => (
             <li key={i} className="my-5 font-[500]">
