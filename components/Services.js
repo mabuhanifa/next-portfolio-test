@@ -18,11 +18,21 @@ export default function Services() {
     {
       name: "Single Page Application",
       info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem accusamus, at placeat cupiditate sint labore voluptatum iusto, quia, voluptatibus fugit doloremque quisquam ducimus explicabo!",
+      list: [
+        "Static Website can be built with vanilla JavaScript,HTML and CSS",
+        "Improved performance for end users compared to dynamic websites",
+        "Static Websites are",
+      ],
       icon: IoIosApps,
     },
     {
       name: "Web Application",
       info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem accusamus, at placeat cupiditate sint labore voluptatum iusto, quia, voluptatibus fugit doloremque quisquam ducimus explicabo!",
+      list: [
+        "Static Website can be built with vanilla JavaScript,HTML and CSS",
+        "Improved performance for end users compared to dynamic websites",
+        "Static Websites are",
+      ],
       icon: FaServer,
     },
   ];
