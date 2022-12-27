@@ -13,10 +13,10 @@ export default function Modal({ view, setModal, data }) {
   return (
     <div
       id="container"
-      className="mx-5 bg-opacity-30 backdrop-blur-sm fixed inset-0 flex justify-center items-center z-15 dark:text-gray-100"
+      className=" mx-5 bg-opacity-30 backdrop-blur-sm fixed inset-0 flex justify-center items-center z-15 dark:text-gray-100"
       onClick={closeModal}
     >
-      <div className="border border-gray-700 bg-gray-700 text-white dark:border-white dark:bg-white dark:text-gray-700 rounded-xl p-10 relative">
+      <div className="max-w-2xl border border-gray-700 bg-gray-700 text-white dark:border-white dark:bg-white dark:text-gray-700 rounded-xl p-10 relative">
         <h1 className="text-2xl font-bold mb-10">{name}</h1>
         <p>{info}</p>
         <ol className="list-decimal px-5">
