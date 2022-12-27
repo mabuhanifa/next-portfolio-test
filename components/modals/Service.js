@@ -8,9 +8,9 @@ export default function Service({ data: { name, info, icon } }) {
   return (
     <div className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300 dark:bg-[#1b232e] dark:shadow-2xl-[#101621]">
       <div className="flex justify-center items-center">
-        <Icon className="text-8xl text-gray-700" />
+        <Icon className="text-8xl" />
       </div>
-      <h1 className="text-xl font-bold text-slate-700 my-5">{name}</h1>
+      <h1 className="text-xl font-bold my-5">{name}</h1>
       <p>{info}</p>
 
       <button

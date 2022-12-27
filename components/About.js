@@ -18,7 +18,7 @@ export default function About() {
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, placeat culpa. Voluptatem ea facilis totam neque, sit iste? Voluptatum minus iure magnam dicta, excepturi quam facilis quas qui doloremque beatae aliquam soluta sed, molestias fuga voluptatibus? Soluta facilis, ipsam blanditiis iure ducimus quia. Earum nostrum repellat molestiae, ratione incidunt adipisci.
           </p>
-          <button className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5 ">Download CV <AiOutlineFileText className='text-xl inline'/></button>
+          <button className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5 dark:bg-gray-100 dark:text-gray-700 font-bold" >Download CV <AiOutlineFileText className='text-xl inline'/></button>
         </div>
       </div>
     </div>
