@@ -15,7 +15,7 @@ export default function Service({ data: { name, info, icon } }) {
 
       <button
         onClick={() => setModal(true)}
-        className=" my-5 border border-gray-500 p-2 rounded"
+        className="mt-8 border border-white p-2 px-10 rounded hover:bg-white hover:text-gray-700"
       >
         View More <BsArrowRight className="inline text-xl mx-2" />{" "}
       </button>
