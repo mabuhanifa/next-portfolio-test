@@ -11,15 +11,27 @@ export default function Main() {
       <div className="sm:p-5 flex items-center">
         {/* -----icons----- */}
         <div className="flex flex-col gap-10 text-2xl sm:mr-20">
-          <span>
+          <a
+            href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <ImLinkedin />
-          </span>
-          <span>
+          </a>
+          <a
+            href="https://github.com/mabuhanifa"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FiGithub />
-          </span>
-          <span>
+          </a>
+          <a
+            href="https://www.facebook.com/shourov.hanifa/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <RiFacebookCircleLine />
-          </span>
+          </a>
         </div>
         <div className="sm:hidden w-full flex justify-center items-center px-5">
           <Image
@@ -38,9 +50,9 @@ export default function Main() {
           <p className="my-5">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             illo incidunt autem quia optio soluta atque corrupti! Provident
-            accusamus id omnis harum nesciunt blanditiis facilis.
-            illo incidunt autem quia optio soluta atque corrupti! Provident
-            accusamus id omnis harum nesciunt blanditiis facilis.
+            accusamus id omnis harum nesciunt blanditiis facilis. illo incidunt
+            autem quia optio soluta atque corrupti! Provident accusamus id omnis
+            harum nesciunt blanditiis facilis.
           </p>
           <button
             className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5
