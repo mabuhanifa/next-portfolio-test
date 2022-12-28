@@ -15,7 +15,7 @@ export default function Service({ data }) {
       <p>{info}</p>
       <div className="text-xs mt-5">
         {tech.map((t, i) => (
-          <span key={i} className= "bg-gray-700 text-gray-100 p-1.5 mx-2 rounded">
+          <span key={i} className= "bg-gray-700 text-gray-100 p-1.5 mx-2 rounded dark:bg-gray-100 dark:text-gray-700 font-[500]">
             {t.name}
           </span>
         ))}

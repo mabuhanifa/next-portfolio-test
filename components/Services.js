@@ -30,9 +30,9 @@ export default function Services() {
       ],
       icon: IoIosApps,
       tech: [
-        { name: "HTML", bg: "#dd4a253f", tx: "#DD4B25" },
-        { name: "CSS", bg: "#254add46", tx: "#254BDD" },
-        { name: "JavaScript", bg: "#efd61d38", tx: "#EFD81D" },
+        { name: "REACT", bg: "#dd4a253f", tx: "#DD4B25" },
+        { name: "REACT-ROUTER", bg: "#254add46", tx: "#254BDD" },
+        { name: "FIREBASE", bg: "#efd61d38", tx: "#EFD81D" },
       ],
     },
     {
@@ -45,9 +45,10 @@ export default function Services() {
       ],
       icon: FaServer,
       tech: [
-        { name: "HTML", bg: "#dd4a253f", tx: "#DD4B25" },
-        { name: "CSS", bg: "#254add46", tx: "#254BDD" },
-        { name: "JavaScript", bg: "#efd61d38", tx: "#EFD81D" },
+        { name: "MONGODB", bg: "#dd4a253f", tx: "#DD4B25" },
+        { name: "EXPRESS-JS", bg: "#254add46", tx: "#254BDD" },
+        { name: "REACT", bg: "#efd61d38", tx: "#EFD81D" },
+        { name: "NODE", bg: "#efd61d38", tx: "#EFD81D" },
       ],
     },
   ];
