@@ -54,7 +54,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="dark:text-gray-300 2xl:mx-40">
+    <div className="dark:text-gray-300 2xl:mx-40 mt-20">
       <h1 className="my-10 text-4xl font-bold text-center">Services</h1>
       <div className="grid sm:grid-cols-3 place-content-center gap-5">
         {data.map((data, i) => (
