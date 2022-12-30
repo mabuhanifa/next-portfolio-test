@@ -1,3 +1,7 @@
+import { FaServer } from "react-icons/fa";
+import { IoIosApps } from "react-icons/io";
+import { MdWeb } from "react-icons/md";
+
 export const data = [
     {
       name: "Static Website",
