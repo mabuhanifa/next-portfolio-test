@@ -40,7 +40,7 @@ const Skills = () => {
           <span className=" hover:text-indigo-700">
             <SiRedux />
           </span>
-          <span className=" dark:hover:text-white hover:text-gray-400">
+          <span className=" dark:hover:text-gray-200 hover:text-gray-400">
             <SiNextdotjs />
           </span>
           <span className=" hover:text-green-600">
