@@ -6,16 +6,12 @@ export default function Project() {
   const {
     query: { id },
   } = useRouter();
-  const raw = data.find(({ id }) => id === id);
+  const project = data.find(({ id }) => id === id);
   return (
-    <div>
+    <div className="mx-40">
       Project {id}
       <div>
-        
-            
-              <h1>{raw.id}</h1>
-            
-         
+        <h1>{project.id}</h1>
       </div>
     </div>
   );
