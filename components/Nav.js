@@ -24,7 +24,7 @@ export default function Nav() {
     }
   };
   return (
-    <div className=" dark:text-gray-300">
+    <div className="px-10 sm:px-28 dark:bg-gray-700 dark:text-gray-100 bg-gray-100 text-gray-700">
       <nav className="flex flex-col sm:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
