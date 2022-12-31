@@ -16,53 +16,50 @@ export default function Project() {
           <div className="w-full h-full ">
             <h1 className="my-10 text-4xl font-bold"> {items.name}</h1>
             <p className="my-10 text-xl font-bold">{items.info}</p>
-            <div className="flex flex-col sm:flex-row text-blue-500 text-lg font-[500] font-firacode">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-10 sm:gap-20 text-blue-500 text-lg font-[500] font-firacode">
               <a
-                className="flex "
                 target="_blank"
                 rel="noopener noreferrer"
                 href={items.link.live}
               >
                 Live Website
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal />{" "}
+                  <VscLinkExternal className="inline" />{" "}
                 </span>
               </a>
               <a
-                className="flex sm:mx-20 my-5 sm:my-0"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={items.link.client}
               >
                 Client Side Code{" "}
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal />{" "}
+                  <VscLinkExternal className="inline" />{" "}
                 </span>
               </a>
               <a
-                className="flex "
                 target="_blank"
                 rel="noopener noreferrer"
                 href={items.link.server}
               >
                 Server Side Code{" "}
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal />{" "}
+                  <VscLinkExternal className="inline" />{" "}
                 </span>
               </a>
             </div>
             <p className="my-5 text-2xl font-bold">
               Screenshots of the project.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center items-center">
+            <div className="flex flex-col flex-wrap sm:flex-row justify-center items-center">
               {items.images.map((img, i) => (
                 <Image
-                  className="w-96 mx-2 p-2 rounded-2xl "
+                  className=" mx-2 p-2 rounded-2xl "
                   src={img}
                   alt=""
                   key={i}
                   height={300}
-                  width={300}
+                  width={400}
                 />
               ))}
             </div>
