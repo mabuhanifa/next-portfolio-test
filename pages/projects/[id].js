@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
 import { VscLinkExternal } from "react-icons/vsc";
@@ -55,11 +56,13 @@ export default function Project() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center">
               {items.images.map((img, i) => (
-                <img
+                <Image
                   className="w-96 mx-2 p-2 rounded-2xl "
                   src={img}
                   alt=""
                   key={i}
+                  height={300}
+                  width={300}
                 />
               ))}
             </div>
