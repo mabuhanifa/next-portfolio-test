@@ -13,7 +13,7 @@ export default function Service({ data }) {
       </div>
       <h1 className="text-xl font-bold my-5">{name}</h1>
       <p>{info}</p>
-      <div className="text-xs mt-5">
+      <div className="text-xs mt-5 flex flex-wrap gap-1">
         {tech.map((t, i) => (
           <span key={i} className= "bg-gray-700 text-gray-100 p-1.5 mx-2 rounded dark:bg-gray-100 dark:text-gray-700 font-[500]">
             {t.name}
