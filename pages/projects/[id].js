@@ -77,7 +77,8 @@ export default function Project() {
               {items.tech.map((tech, i) => (
                 <p
                   key={i}
-                  className={`block mx-2 px-3 py-1.5 rounded-lg bg-[${tech.bg}] `}
+                  className="text-sm bg-gray-700 text-gray-100 px-2 py-1 mx-2 rounded
+                   dark:bg-gray-100 dark:text-gray-700 font-[500]"
                 >
                   {tech.name}
                 </p>
