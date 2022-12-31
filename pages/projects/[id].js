@@ -8,7 +8,7 @@ export default function Project() {
   } = useRouter();
   const project = data.find(({ id }) => id === id);
   return (
-    <div className="mx-40">
+    <div className="mx-40 h-screen">
       Project {id}
       <div>
         <h1>{project.id}</h1>
