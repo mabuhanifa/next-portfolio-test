@@ -30,7 +30,7 @@ export default function Nav() {
         <div className="my-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
-            <div className="sm:hidden " onClick={() => setMenu(!menu)}>
+            <div className="sm:hidden cursor-pointer" onClick={() => setMenu(!menu)}>
               {menu ? (
                 <AiOutlineClose className="text-xl" />
               ) : (
