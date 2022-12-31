@@ -6,11 +6,12 @@ import projects from "../../data/projects";
 export default function Projects() {
   return (
     <div className="2xl:mx-40 ">
-      <div className="grid sm:grid-cols-3 gap-3">
+      <div className="grid sm:grid-cols-3 gap-5">
         {projects.map((data, i) => {
           return (
             <div
-              className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300 dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
+              className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300
+               dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
             >
               <div className="flex justify-center">
@@ -18,14 +19,17 @@ export default function Projects() {
                   src={data.img}
                   alt="img"
                   width={400}
-                  height={300}
-                  className="w-96 h-80 object-cover pb-5 rounded"
+                  height={400}
+                  className="w-96 h-72 object-cover pb-5 rounded"
                 />
               </div>
               <h1 className="text-3xl font-bold ">{data.name}</h1>
               <p className="py-5">{data.info}</p>
               <div className="flex justify-center">
-                <button className="w-full rounded  py-2 bg-gray-700 dark:bg-gray-50 dark:text-gray-700 text-gray-50 font-semibold">
+                <button
+                  className="w-full rounded  py-2 bg-gray-700 dark:bg-gray-50
+                 dark:text-gray-700 text-gray-50 font-semibold"
+                >
                   <Link href={`projects/${data.id}`}>Details</Link>
                 </button>
               </div>
