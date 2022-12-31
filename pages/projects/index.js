@@ -4,7 +4,7 @@ import { data } from "../../data/data";
 
 export default function Projects() {
   return (
-    <div className="mx-20">
+    <div className="mx-20 ">
       <div>
         {data.map((data, i) => {
           return (
