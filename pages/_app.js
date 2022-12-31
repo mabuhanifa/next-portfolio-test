@@ -1,10 +1,10 @@
-import { Open_Sans } from "@next/font/google";
+import { Montserrat } from "@next/font/google";
 import { ThemeProvider } from "next-theme";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import "../styles/globals.css";
 
-const roboto = Open_Sans({
+const roboto = Montserrat({
   subsets: ["latin"],
   weight: ["400", "500", "700"],
   variable: "--font-roboto",

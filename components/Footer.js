@@ -9,8 +9,8 @@ import {
 const Footer = () => {
   return (
     <footer
-      className="p-10 sm:px-28 dark:bg-gray-900 dark:text-gray-100 bg-gray-100
-     text-gray-700 sm:flex justify-between items-center"
+      className="p-10 sm:px-28 bg-gray-700 text-gray-100 dark:bg-gray-900 dark:text-gray-100 
+  sm:flex justify-between items-center"
     >
       <div className="">
         <p>All right reserved by Mohammed Abu Hanifa &copy; 2023</p>
