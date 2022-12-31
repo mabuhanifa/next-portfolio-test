@@ -1,4 +1,5 @@
 import useTheme from "next-theme";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { BsSun } from "react-icons/bs";
@@ -43,7 +44,7 @@ export default function Nav() {
             "hidden sm:flex flex-col sm:flex-row justify-between items-center gap-10"
           }
         >
-          <a>Home</a>
+          <Link href={"/"}>Home</Link>
           <a>About</a>
           <a>Skills</a>
           <a>Service</a>
@@ -67,7 +68,7 @@ export default function Nav() {
               : "hidden"
           }
         >
-          <a>Home</a>
+          <Link href={"/"}>Home</Link>
           <a>About</a>
           <a>Skills</a>
           <a>Service</a>
