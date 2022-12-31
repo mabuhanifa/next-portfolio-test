@@ -4,7 +4,7 @@ import { data } from "../../data/data";
 
 export default function Projects() {
   return (
-    <div className="mx-20 bg-gray-800">
+    <div className="mx-40 bg-gray-800">
       <div className="flex justify-between">
         {data.map((data, i) => {
           return (

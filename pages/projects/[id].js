@@ -24,7 +24,7 @@ export default function Project() {
               >
                 Live Website
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal className="inline" />{" "}
+                  <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                 </span>
               </a>
               <a
@@ -34,7 +34,7 @@ export default function Project() {
               >
                 Client Side Code{" "}
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal className="inline" />{" "}
+                  <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                 </span>
               </a>
               <a
@@ -44,7 +44,7 @@ export default function Project() {
               >
                 Server Side Code{" "}
                 <span className="mx-1 my-auto">
-                  <VscLinkExternal className="inline" />{" "}
+                  <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                 </span>
               </a>
             </div>
@@ -73,15 +73,14 @@ export default function Project() {
             </div>
 
             <h2 className="font-bold text-2xl m-4">Technologies used</h2>
-            <div className="w-full grid grid-cols-3 gap-5 sm:flex items-center mx-2 mb-10 font-notosans ">
+            <div className="w-full grid grid-cols-3 gap-5 sm:flex flex-wrap items-center mx-2 mb-10 font-notosans ">
               {items.tech.map((tech, i) => (
-                <span className={`text-sm text-[${tech.text}] `} key={i}>
-                  <p
-                    className={`block mx-2 px-3 py-1.5 rounded-lg bg-[${tech.bg}] `}
-                  >
-                    {tech.name}
-                  </p>
-                </span>
+                <p
+                  key={i}
+                  className={`block mx-2 px-3 py-1.5 rounded-lg bg-[${tech.bg}] `}
+                >
+                  {tech.name}
+                </p>
               ))}
             </div>
           </div>
