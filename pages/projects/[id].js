@@ -73,15 +73,14 @@ export default function Project() {
             </div>
 
             <h2 className="font-bold text-2xl m-4">Technologies used</h2>
-            <div className="w-full grid grid-cols-3 gap-5 sm:flex flex-wrap items-center mx-2 mb-10 font-notosans ">
-              {items.tech.map((tech, i) => (
-                <p
+            <div className="text-sm mt-5 flex flex-wrap gap-2">
+              {items.tech.map((t, i) => (
+                <span
                   key={i}
-                  className="text-sm bg-gray-700 text-gray-100 px-2 py-1 mx-2 rounded
-                   dark:bg-gray-100 dark:text-gray-700 font-[500]"
+                  className="bg-gray-700 text-gray-100 px-2 py-1 mx-2 rounded dark:bg-gray-100 dark:text-gray-700 font-[500]"
                 >
-                  {tech.name}
-                </p>
+                  {t.name}
+                </span>
               ))}
             </div>
           </div>
