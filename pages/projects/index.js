@@ -10,7 +10,9 @@ export default function Projects() {
           return (
             <div key={i}>
               <h1>{data.name}</h1>
-              <Link href={`projects/${data.id}`}>Go</Link>
+              <button className="px-10 py-5">
+                <Link href={`projects/${data.id}`}>Details</Link>
+              </button>
             </div>
           );
         })}
