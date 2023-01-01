@@ -28,7 +28,7 @@ export default function Projects() {
               <p className="py-3">{data.info}</p>
               <div>
                 <h2 className="text-xl font-bold pb-3">Technology Used</h2>
-                <div className="text-xs flex flex-wrap pb-5">
+                <div className="text-xs flex flex-wrap pb-5 gap-1">
                   {data.tech.slice(0, 4).map((t, i) => (
                     <>
                       <span
