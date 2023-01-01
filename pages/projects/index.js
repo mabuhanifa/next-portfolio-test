@@ -25,7 +25,29 @@ export default function Projects() {
                 />
               </div>
               <h1 className="text-3xl font-bold ">{data.name}</h1>
-              <p className="py-5">{data.info}</p>
+              <p className="py-3">{data.info}</p>
+              <div>
+                <h2 className="text-xl font-bold pb-3">Technology Used</h2>
+                <div className="text-xs flex flex-wrap pb-5">
+                  {data.tech.slice(0, 4).map((t, i) => (
+                    <>
+                      <span
+                        key={i}
+                        className="bg-gray-700 text-gray-100 px-1.5 py-1 mx-1 rounded dark:bg-gray-100
+                         dark:text-gray-700 font-[500]"
+                      >
+                        {t.name}
+                      </span>
+                    </>
+                  ))}
+                  <span
+                    className="bg-gray-700 px-1 py-1 mx-1 rounded dark:bg-gray-100
+                     dark:text-blue-500 font-[500] text-blue-300"
+                  >
+                    +More
+                  </span>
+                </div>
+              </div>
               <div className="flex justify-center">
                 <button
                   className="w-full rounded py-2 bg-gray-700 dark:bg-indigo-700
