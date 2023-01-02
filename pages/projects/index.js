@@ -11,28 +11,28 @@ export default function Projects() {
         <h1 className="text-xl font-bold text-center my-2">Category</h1>
 
         <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             STATIC-HTML
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             JS-DOM
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             FULL-STACK
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             REACT
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             REDUX
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             NODE
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             EXPRESS
           </button>
-          <button className="px-2 py-1 border border-gray-700 rounded">
+          <button className="cat-btn">
             NEXT
           </button>
         </div>
