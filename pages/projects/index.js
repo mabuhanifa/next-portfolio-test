@@ -8,10 +8,17 @@ export default function Projects() {
     <div className="2xl:mx-40 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
-      <h1 className="text-2xl font-bold text-center my-10">Category</h1>
-        
-        <div>
+        <h1 className="text-2xl font-bold text-center my-10">Category</h1>
 
+        <div>
+          <button>HTML</button>
+          <button>DOM</button>
+          <button>REACT</button>
+          <button>REDUX</button>
+          <button>NODE</button>
+          <button>EXPRESS</button>
+          <button>NEXT</button>
+          <button>FULL-STACK</button>
         </div>
       </div>
       <div className="grid sm:grid-cols-3 gap-5">
