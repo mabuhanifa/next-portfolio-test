@@ -7,6 +7,13 @@ export default function Projects() {
   return (
     <div className="2xl:mx-40 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
+      <div>
+      <h1 className="text-2xl font-bold text-center my-10">Category</h1>
+        
+        <div>
+
+        </div>
+      </div>
       <div className="grid sm:grid-cols-3 gap-5">
         {projects.map((data, i) => {
           return (
