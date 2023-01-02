@@ -8,17 +8,33 @@ export default function Projects() {
     <div className="2xl:mx-40 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
-        <h1 className="text-2xl font-bold text-center my-10">Category</h1>
+        <h1 className="text-xl font-bold text-center my-2">Category</h1>
 
-        <div>
-          <button>HTML</button>
-          <button>DOM</button>
-          <button>REACT</button>
-          <button>REDUX</button>
-          <button>NODE</button>
-          <button>EXPRESS</button>
-          <button>NEXT</button>
-          <button>FULL-STACK</button>
+        <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            STATIC-HTML
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            JS-DOM
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            FULL-STACK
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            REACT
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            REDUX
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            NODE
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            EXPRESS
+          </button>
+          <button className="px-2 py-1 border border-gray-700 rounded">
+            NEXT
+          </button>
         </div>
       </div>
       <div className="grid sm:grid-cols-3 gap-5">
