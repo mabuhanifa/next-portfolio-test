@@ -56,7 +56,7 @@ export default function Projects() {
               </div>
               <h1 className="text-3xl font-bold ">{data.name}</h1>
               <p className="py-3">{data.info}</p>
-              <div>
+              {/* <div>
                 <h2 className="text-xl font-bold pb-3">Technology Used</h2>
                 <div className="text-xs flex flex-wrap pb-5 gap-1">
                   {data.tech.slice(0, 4).map((t, i) => (
@@ -77,7 +77,7 @@ export default function Projects() {
                     +More
                   </span>
                 </div>
-              </div>
+              </div> */}
               <div className="flex justify-center">
                 <button
                   className="w-full rounded py-2 bg-gray-700 dark:bg-indigo-700
