@@ -1,5 +1,5 @@
 import Front from "../components/front";
-import Projects from "./projects";
+import Projects from "../components/Projects";
 
 
 export default function Home() {
