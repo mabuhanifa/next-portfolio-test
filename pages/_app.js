@@ -11,7 +11,7 @@ import "../styles/globals.css";
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className="text-gray-700 dark:text-white dark:bg-gray-700 bg-gray-100 py-5 px-10 sm:px-20">
+    <main className="text-gray-700 dark:text-white dark:bg-gray-700 bg-gray-100 pt-5">
       {/* className={`${roboto.variable} font-roboto`} */}
       <ThemeProvider enableSystem={true} attribute="class">
         <Nav />

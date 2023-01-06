@@ -5,7 +5,7 @@ import Projects from "../components/Projects";
 export default function Home() {
 
   return (
-    <div >
+    <div className=" px-10 sm:px-20">
       <Front/>
       <Projects/>
     </div>
