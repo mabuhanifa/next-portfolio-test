@@ -51,9 +51,6 @@ export default function Projects() {
                 <button
                   className="w-full rounded py-2 bg-gray-700 dark:bg-indigo-700
                  dark:text-gray-100 text-gray-50 font-semibold hover:bg-gray-900 dark:hover:bg-indigo-900"
-                  onClick={() => {
-                    pusher(data.id);
-                  }}
                 >
                   Details
                 </button>

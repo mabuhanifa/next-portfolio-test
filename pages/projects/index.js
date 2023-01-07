@@ -24,13 +24,16 @@ function Projects({ projects }) {
           <button className="cat-btn">NEXT</button>
         </div>
       </div>
-      <div className="grid sm:grid-cols-3 gap-5">
+      <div className="grid sm:grid-cols-3 gap-5"
+      
+      >
         {projects.map((data, i) => {
           return (
             <div
               className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
+              onClick={()=>pusher(data.id)}
             >
               <div className="flex justify-center">
                 <Image
@@ -69,7 +72,6 @@ function Projects({ projects }) {
                 <button
                   className="w-full rounded py-2 bg-gray-700 dark:bg-indigo-700
                  dark:text-gray-100 text-gray-50 font-semibold hover:bg-gray-900 dark:hover:bg-indigo-900"
-                  onClick={() => pusher(data.id)}
                 >
                   Details
                 </button>
