@@ -30,7 +30,10 @@ export default function Nav() {
         <div className="my-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
-            <div className="sm:hidden cursor-pointer" onClick={() => setMenu(!menu)}>
+            <div
+              className="sm:hidden cursor-pointer"
+              onClick={() => setMenu(!menu)}
+            >
               {menu ? (
                 <AiOutlineClose className="text-xl" />
               ) : (
@@ -48,7 +51,7 @@ export default function Nav() {
           <a>About</a>
           <a>Skills</a>
           <a>Service</a>
-          <a>Portfolio</a>
+          <Link href={"/projects"}>Projects</Link>
           <a>Contact</a>
           <div
             className="flex justify-center items-center cursor-pointer "
@@ -72,7 +75,7 @@ export default function Nav() {
           <a>About</a>
           <a>Skills</a>
           <a>Service</a>
-          <a>Portfolio</a>
+          <Link href={"/projects"}>Projects</Link>
           <a>Contact</a>
           <div
             className="flex justify-center items-center cursor-pointer "

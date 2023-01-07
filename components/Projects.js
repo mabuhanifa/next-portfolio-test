@@ -1,9 +1,13 @@
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import projects from "../data/projects";
 
 export default function Projects() {
+  const { push } = useRouter();
+  const pusher = (url) => {
+    push(`/projects/${url}`);
+  };
   return (
     <div className="2xl:mx-40 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
@@ -28,6 +32,9 @@ export default function Projects() {
               className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
+              onClick={() => {
+                pusher(data.id);
+              }}
             >
               <div className="flex justify-center">
                 <Image
@@ -44,10 +51,11 @@ export default function Projects() {
                 <button
                   className="w-full rounded py-2 bg-gray-700 dark:bg-indigo-700
                  dark:text-gray-100 text-gray-50 font-semibold hover:bg-gray-900 dark:hover:bg-indigo-900"
+                  onClick={() => {
+                    pusher(data.id);
+                  }}
                 >
-                  <Link href={`projects/${data.id}`}>
-                   Details
-                  </Link>
+                  Details
                 </button>
               </div>
             </div>
