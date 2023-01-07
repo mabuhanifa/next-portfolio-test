@@ -1,14 +1,9 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 import React from "react";
 import { VscLinkExternal } from "react-icons/vsc";
 import projects from "../../data/projects";
 
-export default function Project() {
-  const {
-    query: { id },
-  } = useRouter();
-  const items = projects.find((project) => project.id == id);
+export default function Project({ items }) {
   return (
     <>
       {items && (
@@ -88,4 +83,24 @@ export default function Project() {
       )}
     </>
   );
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { id: '1' } },
+      { params: { id: '2' } },
+      { params: { id: '3' } },
+    ],
+    fallback: false
+  };
+}
+
+export async function getStaticProps({ params: { id } }) {
+  const items = projects.find((project) => project.id == id);
+  return {
+    props: {
+      items,
+    },
+  };
 }
