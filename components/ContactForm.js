@@ -16,7 +16,7 @@ function ContactForm() {
         type="name"
         name="name"
         placeholder="Your Name"
-        className="input block my-2 input-bordered input-secondary w-full max-w-md"
+        className="py-3 px-3 rounded outline-purple-500  block my-2  w-full max-w-md"
       />
       <ValidationError prefix="Text" field="text" errors={state.errors} />
       <label className="text-gray-300" htmlFor="email">
@@ -27,7 +27,7 @@ function ContactForm() {
         type="email"
         name="email"
         placeholder="Your Email"
-        className="input block my-2 input-bordered input-secondary w-full max-w-md"
+        className="py-3 px-3 rounded outline-purple-500 block my-2  w-full max-w-md"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label className="text-gray-300" htmlFor="message">
@@ -37,11 +37,11 @@ function ContactForm() {
         placeholder="Your Message"
         id="message"
         name="message"
-        className="h-36 my-2 input input-group-lg block input-bordered input-secondary w-full max-w-md"
+        className="py-3 px-3  rounded outline-purple-500 h-36 my-2  block w-full max-w-md"
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
-        className="btn btn-primary w-full max-w-md block my-4"
+        className="py-5 w-full max-w-md block my-4 bg-indigo-500 text-xl font-bold"
         type="submit"
         disabled={state.submitting}
       >
