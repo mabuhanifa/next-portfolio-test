@@ -48,7 +48,7 @@ export default function Nav() {
           }
         >
           <Link href={"/"}>Home</Link>
-          <a>About</a>
+          <Link href={"/about"}>About</Link>
           <a>Skills</a>
           <a>Service</a>
           <Link href={"/projects"}>Projects</Link>
@@ -72,7 +72,7 @@ export default function Nav() {
           }
         >
           <Link href={"/"}>Home</Link>
-          <a>About</a>
+          <Link href={"/about"}>About</Link>
           <a>Skills</a>
           <a>Service</a>
           <Link href={"/projects"}>Projects</Link>
