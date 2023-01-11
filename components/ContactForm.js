@@ -4,11 +4,11 @@ import { useForm, ValidationError } from "@formspree/react";
 function ContactForm() {
   const [state, handleSubmit] = useForm("xeqndzov");
   if (state.succeeded) {
-    return <p className="text-gray-300">Thanks for joining!</p>;
+    return <p className="">Thanks for joining!</p>;
   }
   return (
     <form className="" onSubmit={handleSubmit}>
-      <label className="text-gray-300" htmlFor="name">
+      <label className="" htmlFor="name">
         Your Name :{" "}
       </label>
       <input
@@ -16,10 +16,10 @@ function ContactForm() {
         type="name"
         name="name"
         placeholder="Your Name"
-        className="py-3 px-3 rounded outline-purple-500  block my-2  w-full max-w-md"
+        className="border border-gray-300 py-3 px-3 rounded outline-indigo-700 text-gray-700 block my-2  w-full max-w-md"
       />
       <ValidationError prefix="Text" field="text" errors={state.errors} />
-      <label className="text-gray-300" htmlFor="email">
+      <label className="" htmlFor="email">
         Your Email :{" "}
       </label>
       <input
@@ -27,25 +27,25 @@ function ContactForm() {
         type="email"
         name="email"
         placeholder="Your Email"
-        className="py-3 px-3 rounded outline-purple-500 block my-2  w-full max-w-md"
+        className="border border-gray-300 py-3 px-3 rounded outline-indigo-700 text-gray-700 block my-2  w-full max-w-md"
       />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
-      <label className="text-gray-300" htmlFor="message">
+      <label className="" htmlFor="message">
         Your Message :{" "}
       </label>
       <textarea
         placeholder="Your Message"
         id="message"
         name="message"
-        className="py-3 px-3  rounded outline-purple-500 h-36 my-2  block w-full max-w-md"
+        className="border border-gray-300 py-3 px-3  rounded outline-indigo-700 text-gray-700 h-36 my-2  block w-full max-w-md"
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button
-        className="py-5 w-full max-w-md block my-4 bg-indigo-500 text-xl font-bold"
+        className="py-4 w-full max-w-md block my-4 bg-indigo-700 hover:bg-indigo-900 text-xl font-bold text-white rounded"
         type="submit"
         disabled={state.submitting}
       >
-        Send Email
+        SEND EMAIL
       </button>
     </form>
   );
