@@ -49,8 +49,6 @@ export default function Nav() {
         >
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
-          <a>Skills</a>
-          <a>Service</a>
           <Link href={"/projects"}>Projects</Link>
           <a>Contact</a>
           <div
@@ -73,8 +71,6 @@ export default function Nav() {
         >
           <Link href={"/"}>Home</Link>
           <Link href={"/about"}>About</Link>
-          <a>Skills</a>
-          <a>Service</a>
           <Link href={"/projects"}>Projects</Link>
           <a>Contact</a>
           <div
