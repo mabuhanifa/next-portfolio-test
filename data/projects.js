@@ -123,6 +123,36 @@ const projects = [
     },
   },
   {
+    id: 6,
+    name: "Gadget Square",
+    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info_bullets: [
+      "SnapMaster is a React Single Page Application.",
+      "This website is built with React and React Router.",
+      "This project contains private route.",
+      "React, React Router, React-Bootstrap, React Toast have been used.",
+      "This project is built with react-firebase hooks.",
+    ],
+    tech: [
+      { name: "React", bg: "#5ed3f333", text: "#5ED3F3" },
+      { name: "React Router", bg: "#c03f4131", text: "#C03F41" },
+      { name: "React Bootstrap", bg: "#2ea1ff27", text: "#2EA1FF" },
+      { name: "Firebase", bg: "#f2bf2833", text: "#F2C028" },
+      { name: "React Toastify", bg: "#303ebe5e", text: "#4862f5" },
+    ],
+    img: "https://i.ibb.co/BycFGrX/Fullscreen-capture-1162023-125501-PM.png",
+    images: [
+      "https://i.ibb.co/vHX4YLS/Fullscreen-capture-1162023-125652-PM.png",
+      "https://i.ibb.co/VBPdv9P/Fullscreen-capture-1162023-125725-PM.png",
+      "https://i.ibb.co/G3Sr0g0/Fullscreen-capture-1162023-125747-PM.png",
+    ],
+    link: {
+      live: "https://mern-redux.netlify.app",
+      client: "https://github.com/mabuhanifa/mern-redux-01",
+      server: "https://github.com/mabuhanifa/mern-redux-server-01",
+    },
+  },
+  {
     id: 5,
     name: "Gadget Square",
     info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
