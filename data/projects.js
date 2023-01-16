@@ -90,11 +90,40 @@ const projects = [
     link: {
       live: "https://react-firebase-assignment-09.firebaseapp.com",
       client: "https://github.com/mabuhanifa/snapmaster-client",
-      server: "https://github.com/mabuhanifa/snapmaster-client",
     },
   },
   {
     id: 4,
+    name: "Gadget Square",
+    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info_bullets: [
+      "SnapMaster is a React Single Page Application.",
+      "This website is built with React and React Router.",
+      "This project contains private route.",
+      "React, React Router, React-Bootstrap, React Toast have been used.",
+      "This project is built with react-firebase hooks.",
+    ],
+    tech: [
+      { name: "React", bg: "#5ed3f333", text: "#5ED3F3" },
+      { name: "React Router", bg: "#c03f4131", text: "#C03F41" },
+      { name: "React Bootstrap", bg: "#2ea1ff27", text: "#2EA1FF" },
+      { name: "Firebase", bg: "#f2bf2833", text: "#F2C028" },
+      { name: "React Toastify", bg: "#303ebe5e", text: "#4862f5" },
+    ],
+    img: "https://i.ibb.co/Lk1N4w4/Fullscreen-capture-1162023-112123-AM.png",
+    images: [
+      "https://i.ibb.co/WcfXcKQ/Fullscreen-capture-1162023-112207-AM.png",
+      "https://i.ibb.co/37dwNf1/Fullscreen-capture-1162023-112340-AM.png",
+      "https://i.ibb.co/dcgpc2K/Fullscreen-capture-1162023-112355-AM.png",
+    ],
+    link: {
+      live: "https://mern-redux.netlify.app",
+      client: "https://github.com/mabuhanifa/mern-redux-01",
+      server: "https://github.com/mabuhanifa/mern-redux-server-01",
+    },
+  },
+  {
+    id: 5,
     name: "Gadget Square",
     info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
     info_bullets: [

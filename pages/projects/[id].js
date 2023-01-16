@@ -32,16 +32,19 @@ export default function Project({ items }) {
                   <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                 </span>
               </a>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href={items.link.server}
-              >
-                Server Side Code{" "}
-                <span className="mx-1 my-auto">
-                  <VscLinkExternal className="inline ml-2 mb-1" />{" "}
-                </span>
-              </a>
+              {
+                items.link?.server &&
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={items.link.server}
+                >
+                  Server Side Code{" "}
+                  <span className="mx-1 my-auto">
+                    <VscLinkExternal className="inline ml-2 mb-1" />{" "}
+                  </span>
+                </a>
+              }
             </div>
             <p className="my-5 text-2xl font-bold">
               Screenshots of the project.
@@ -88,12 +91,13 @@ export default function Project({ items }) {
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { id: '1' } },
-      { params: { id: '2' } },
-      { params: { id: '3' } },
-      { params: { id: '4' } },
+      { params: { id: "1" } },
+      { params: { id: "2" } },
+      { params: { id: "3" } },
+      { params: { id: "4" } },
+      { params: { id: "5" } },
     ],
-    fallback: false
+    fallback: false,
   };
 }
 
