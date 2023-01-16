@@ -95,8 +95,8 @@ const projects = [
   },
   {
     id: 4,
-    name: "Snapmaster",
-    info: "SnapMaster is a single photography service provider thats allows users to rent photographer for a occasion .",
+    name: "Gadget Square",
+    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
     info_bullets: [
       "SnapMaster is a React Single Page Application.",
       "This website is built with React and React Router.",
@@ -111,11 +111,11 @@ const projects = [
       { name: "Firebase", bg: "#f2bf2833", text: "#F2C028" },
       { name: "React Toastify", bg: "#303ebe5e", text: "#4862f5" },
     ],
-    img: "https://i.ibb.co/q7CCVm4/snapmaster.png",
+    img: "https://i.ibb.co/Lk1N4w4/Fullscreen-capture-1162023-112123-AM.png",
     images: [
-      "https://i.ibb.co/8bP2pk7/Opera-Snapshot-2022-06-11-144907-react-firebase-assignment-09-firebaseapp-com.png",
-      "https://i.ibb.co/hCnF8F4/Opera-Snapshot-2022-06-11-144935-react-firebase-assignment-09-firebaseapp-com.png",
-      "https://i.ibb.co/YB8pQ8K/Opera-Snapshot-2022-06-11-145020-react-firebase-assignment-09-firebaseapp-com.png",
+      "https://i.ibb.co/WcfXcKQ/Fullscreen-capture-1162023-112207-AM.png",
+      "https://i.ibb.co/37dwNf1/Fullscreen-capture-1162023-112340-AM.png",
+      "https://i.ibb.co/dcgpc2K/Fullscreen-capture-1162023-112355-AM.png",
     ],
     link: {
       live: "https://react-firebase-assignment-09.firebaseapp.com",
