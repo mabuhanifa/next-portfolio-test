@@ -93,6 +93,36 @@ const projects = [
       server: "https://github.com/mabuhanifa/snapmaster-client",
     },
   },
+  {
+    id: 4,
+    name: "Snapmaster",
+    info: "SnapMaster is a single photography service provider thats allows users to rent photographer for a occasion .",
+    info_bullets: [
+      "SnapMaster is a React Single Page Application.",
+      "This website is built with React and React Router.",
+      "This project contains private route.",
+      "React, React Router, React-Bootstrap, React Toast have been used.",
+      "This project is built with react-firebase hooks.",
+    ],
+    tech: [
+      { name: "React", bg: "#5ed3f333", text: "#5ED3F3" },
+      { name: "React Router", bg: "#c03f4131", text: "#C03F41" },
+      { name: "React Bootstrap", bg: "#2ea1ff27", text: "#2EA1FF" },
+      { name: "Firebase", bg: "#f2bf2833", text: "#F2C028" },
+      { name: "React Toastify", bg: "#303ebe5e", text: "#4862f5" },
+    ],
+    img: "https://i.ibb.co/q7CCVm4/snapmaster.png",
+    images: [
+      "https://i.ibb.co/8bP2pk7/Opera-Snapshot-2022-06-11-144907-react-firebase-assignment-09-firebaseapp-com.png",
+      "https://i.ibb.co/hCnF8F4/Opera-Snapshot-2022-06-11-144935-react-firebase-assignment-09-firebaseapp-com.png",
+      "https://i.ibb.co/YB8pQ8K/Opera-Snapshot-2022-06-11-145020-react-firebase-assignment-09-firebaseapp-com.png",
+    ],
+    link: {
+      live: "https://react-firebase-assignment-09.firebaseapp.com",
+      client: "https://github.com/mabuhanifa/snapmaster-client",
+      server: "https://github.com/mabuhanifa/snapmaster-client",
+    },
+  },
 ];
 
 export default projects;
