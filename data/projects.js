@@ -118,9 +118,9 @@ const projects = [
       "https://i.ibb.co/dcgpc2K/Fullscreen-capture-1162023-112355-AM.png",
     ],
     link: {
-      live: "https://react-firebase-assignment-09.firebaseapp.com",
-      client: "https://github.com/mabuhanifa/snapmaster-client",
-      server: "https://github.com/mabuhanifa/snapmaster-client",
+      live: "https://mern-redux.netlify.app",
+      client: "https://github.com/mabuhanifa/mern-redux-01",
+      server: "https://github.com/mabuhanifa/mern-redux-server-01",
     },
   },
 ];
