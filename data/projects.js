@@ -126,8 +126,32 @@ const projects = [
       server: "https://github.com/mabuhanifa/mern-redux-server-01",
     },
   },
+  
   {
     id: 5,
+    name: "Redux Vanilla JavaScript",
+    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info_bullets: [
+      "SnapMaster is a React Single Page Application.",
+      "This website is built with React and React Router.",
+      "This project contains private route.",
+      "React, React Router, React-Bootstrap, React Toast have been used.",
+      "This project is built with react-firebase hooks.",
+    ],
+    tech: ["React", "Redux","React-Redux"],
+    img: "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
+    images: [
+      "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
+      "https://i.ibb.co/Lznq9xK/Fullscreen-capture-1172023-121900-PM.png",
+      "https://i.ibb.co/MhTZktL/Fullscreen-capture-1172023-121913-PM.png"
+    ],
+    link: {
+      live: "https://redux-vanilla-js.netlify.app",
+      client: "https://github.com/mabuhanifa/redux-2nd-assignment",
+    },
+  },
+  {
+    id: 6,
     name: "Redux 2nd",
     info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
     info_bullets: [
@@ -137,18 +161,18 @@ const projects = [
       "React, React Router, React-Bootstrap, React Toast have been used.",
       "This project is built with react-firebase hooks.",
     ],
-    tech: ["React", "Redux"],
-    img: "https://i.ibb.co/XtNWgFc/Fullscreen-capture-1172023-125104-PM.png",
+    tech: ["React", "Redux","React-Redux"],
+    img: "https://i.ibb.co/4WrswC3/Fullscreen-capture-1172023-124254-PM.png",
     images: [
-      "https://i.ibb.co/XtNWgFc/Fullscreen-capture-1172023-125104-PM.png",
+      "https://i.ibb.co/4WrswC3/Fullscreen-capture-1172023-124254-PM.png",
     ],
     link: {
-      live: "https://mern-redux.netlify.app",
-      client: "https://github.com/mabuhanifa/mern-redux-01",
+      live: "https://redux-2nd-assignment.netlify.app",
+      client: "https://github.com/mabuhanifa/redux-2nd-assignment",
     },
   },
   {
-    id: 6,
+    id: 7,
     name: "Redux 3rd",
     info: "This is a small Redux Project where users can search a content or filter contents by clicking on the channel or category.",
     info_bullets: [
