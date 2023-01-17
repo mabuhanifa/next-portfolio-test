@@ -3,7 +3,7 @@ import About from "../../components/About";
 
 export default function index() {
   return (
-    <div className="mt-40 h-screen">
+    <div className="mt-40">
       <About />
     </div>
   );
