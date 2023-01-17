@@ -77,7 +77,7 @@ export default function Project({ items }) {
                   key={i}
                   className="bg-gray-700 text-gray-100 px-2 py-1 mx-2 rounded dark:bg-gray-100 dark:text-gray-700 font-[500]"
                 >
-                  {t.name}
+                  {t}
                 </span>
               ))}
             </div>
