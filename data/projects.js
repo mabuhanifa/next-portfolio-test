@@ -279,9 +279,9 @@ const projects = [
       "https://i.ibb.co/YBC9YgH/Fullscreen-capture-1172023-124539-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      live: "https://redux-7th.netlify.app",
+      client: "https://github.com/mabuhanifa/redux-7th",
+      server: "https://github.com/mabuhanifa/lws-json-server",
     },
   },
   {
@@ -313,7 +313,7 @@ const projects = [
     link: {
       live: "https://mern-last-assignment.web.app",
       client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      server: "https://github.com/mabuhanifa/lws-json-server",
     },
   },
   {
