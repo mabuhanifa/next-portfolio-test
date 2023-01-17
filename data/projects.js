@@ -126,7 +126,7 @@ const projects = [
       server: "https://github.com/mabuhanifa/mern-redux-server-01",
     },
   },
-  
+
   {
     id: 5,
     name: "Redux Vanilla JavaScript",
@@ -138,7 +138,7 @@ const projects = [
       "React, React Router, React-Bootstrap, React Toast have been used.",
       "This project is built with react-firebase hooks.",
     ],
-    tech: ["React", "Redux","React-Redux"],
+    tech: ["React", "Redux", "React-Redux"],
     img: "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
     images: [
       "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
@@ -160,7 +160,7 @@ const projects = [
       "React, React Router, React-Bootstrap, React Toast have been used.",
       "This project is built with react-firebase hooks.",
     ],
-    tech: ["React", "Redux","React-Redux"],
+    tech: ["React", "Redux", "React-Redux"],
     img: "https://i.ibb.co/4WrswC3/Fullscreen-capture-1172023-124254-PM.png",
     images: [
       "https://i.ibb.co/4WrswC3/Fullscreen-capture-1172023-124254-PM.png",
@@ -190,7 +190,8 @@ const projects = [
       live: "https://redux-3rd.netlify.app",
       client: "https://github.com/mabuhanifa/redux-3d-task",
     },
-  },{
+  },
+  {
     id: 8,
     name: "Redux 4th",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
@@ -286,7 +287,7 @@ const projects = [
   },
   {
     id: 11,
-    name: "Biospc",
+    name: "Redux 8th",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -304,15 +305,15 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/zfqDvK1/Fullscreen-capture-1172023-124958-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/XtNWgFc/Fullscreen-capture-1172023-125104-PM.png",
+      "https://i.ibb.co/vYGBjTL/Fullscreen-capture-1172023-125043-PM.png",
+      "https://i.ibb.co/cX62LjN/Fullscreen-capture-1172023-125005-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
+      live: "https://redux-8th.netlify.app",
+      client: "https://github.com/mabuhanifa/redux-8th",
       server: "https://github.com/mabuhanifa/lws-json-server",
     },
   },
@@ -476,7 +477,6 @@ const projects = [
       server: "https://github.com/mabuhanifa/BiosPC-server-side",
     },
   },
-
 ];
 
 export default projects;
