@@ -128,7 +128,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "Gadget Square",
+    name: "Redux 2nd",
     info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
     info_bullets: [
       "SnapMaster is a React Single Page Application.",
@@ -137,25 +137,14 @@ const projects = [
       "React, React Router, React-Bootstrap, React Toast have been used.",
       "This project is built with react-firebase hooks.",
     ],
-    tech: [
-      "React",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
-    ],
-    img: "https://i.ibb.co/Lk1N4w4/Fullscreen-capture-1162023-112123-AM.png",
+    tech: ["React", "Redux"],
+    img: "https://i.ibb.co/XtNWgFc/Fullscreen-capture-1172023-125104-PM.png",
     images: [
-      "https://i.ibb.co/WcfXcKQ/Fullscreen-capture-1162023-112207-AM.png",
-      "https://i.ibb.co/37dwNf1/Fullscreen-capture-1162023-112340-AM.png",
-      "https://i.ibb.co/dcgpc2K/Fullscreen-capture-1162023-112355-AM.png",
+      "https://i.ibb.co/XtNWgFc/Fullscreen-capture-1172023-125104-PM.png",
     ],
     link: {
       live: "https://mern-redux.netlify.app",
       client: "https://github.com/mabuhanifa/mern-redux-01",
-      server: "https://github.com/mabuhanifa/mern-redux-server-01",
     },
   },
   {
@@ -167,12 +156,7 @@ const projects = [
       "This projects includes custom actions, constants and reducers.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Redux",
-      "React-Redux",
-      "Tailwind",
-    ],
+    tech: ["React", "Redux", "React-Redux", "Tailwind"],
     img: "https://i.ibb.co/BycFGrX/Fullscreen-capture-1162023-125501-PM.png",
     images: [
       "https://i.ibb.co/vHX4YLS/Fullscreen-capture-1162023-125652-PM.png",
