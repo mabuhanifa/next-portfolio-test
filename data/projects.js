@@ -222,7 +222,7 @@ const projects = [
   },
   {
     id: 9,
-    name: "Biospc",
+    name: "Redux 6th",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -240,21 +240,21 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/kqHC4wk/Fullscreen-capture-1172023-122431-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/VYLdxWc/Fullscreen-capture-1172023-122454-PM.png",
+      "https://i.ibb.co/RhJWvY0/Fullscreen-capture-1172023-122602-PM.png",
+      "https://i.ibb.co/Cmyqnhy/Fullscreen-capture-1172023-122535-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      live: "https://redux-6th.netlify.app",
+      client: "https://github.com/mabuhanifa/redux-6th",
+      server: "https://github.com/mabuhanifa/lws-json-server",
     },
   },
   {
     id: 10,
-    name: "Biospc",
+    name: "Redux 7th",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -272,11 +272,11 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/Dbyb240/Fullscreen-capture-1172023-124515-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/YB5p0ZJ/Fullscreen-capture-1172023-124524-PM.png",
+      "https://i.ibb.co/kDfNbHq/Fullscreen-capture-1172023-124946-PM.png",
+      "https://i.ibb.co/YBC9YgH/Fullscreen-capture-1172023-124539-PM.png",
     ],
     link: {
       live: "https://mern-last-assignment.web.app",

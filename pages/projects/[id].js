@@ -4,6 +4,12 @@ import { VscLinkExternal } from "react-icons/vsc";
 import projects from "../../data/projects";
 
 export default function Project({ items }) {
+  const pusher = (url) => {
+    window.open(
+      url,
+      '_blank'
+    );
+  };
   return (
     <>
       {items && (
@@ -52,12 +58,13 @@ export default function Project({ items }) {
             <div className="flex flex-col flex-wrap sm:flex-row justify-center items-center">
               {items.images.map((img, i) => (
                 <Image
-                  className=" mx-2 p-2 rounded-2xl "
+                  className=" mx-2 p-2 rounded-2xl cursor-pointer"
                   src={img}
                   alt=""
                   key={i}
                   height={300}
                   width={400}
+                  onClick={()=>pusher(img)}
                 />
               ))}
             </div>
