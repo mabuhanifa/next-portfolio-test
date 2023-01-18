@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import projects from "../data/projects";
@@ -26,7 +27,7 @@ export default function Projects() {
         </div>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:lg:grid-cols-3 gap-5 mt-10">
-        {projects.map((data, i) => {
+        {projects.slice(0,6).map((data, i) => {
           return (
             <div
               className="p-5 bg-white rounded shadow-lg shadow-2xl dark:text-gray-300
@@ -58,6 +59,15 @@ export default function Projects() {
             </div>
           );
         })}
+      </div>
+      <div className="flex justify-center mt-10">
+        <div>
+          <button className="bg-indigo-700 px-40 py-3 rounded text-white">
+            <Link href={'/projects'}>
+            View All Projects
+            </Link>
+          </button>
+        </div>
       </div>
     </div>
   );
