@@ -54,13 +54,20 @@ export default function Main() {
             autem quia optio soluta atque corrupti! Provident accusamus id omnis
             harum nesciunt blanditiis facilis.
           </p>
-          <button
-            className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5
-           dark:bg-gray-100 dark:text-gray-700 font-bold"
+
+          <a
+            href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Say Hello
-            <TbSend className="inline mx-2 text-2xl" />
-          </button>
+            <button
+              className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5
+            dark:bg-gray-100 dark:text-gray-700 font-bold"
+            >
+              Say Hello
+              <TbSend className="inline mx-2 text-2xl" />
+            </button>
+          </a>
         </div>
         <div className="hidden w-full sm:flex justify-center items-center mx-10">
           <Image
