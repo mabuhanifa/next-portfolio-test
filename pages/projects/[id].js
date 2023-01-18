@@ -61,6 +61,7 @@ export default function Project({ items }) {
                   key={i}
                   height={300}
                   width={400}
+                  priority
                   onClick={() => pusher(img)}
                 />
               ))}

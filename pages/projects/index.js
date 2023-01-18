@@ -42,6 +42,7 @@ function Projects({ projects }) {
                   width={400}
                   height={400}
                   className="w-96 h-60 object-cover pb-5 rounded"
+                  priority
                 />
               </div>
               <h1 className="text-3xl font-bold ">{data.name}</h1>
