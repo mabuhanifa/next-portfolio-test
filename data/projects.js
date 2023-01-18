@@ -130,15 +130,13 @@ const projects = [
   {
     id: 5,
     name: "Redux Vanilla JavaScript",
-    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info: "This is a counter app built with vanilla JavaScript and Redux.",
     info_bullets: [
-      "SnapMaster is a React Single Page Application.",
-      "This website is built with React and React Router.",
-      "This project contains private route.",
-      "React, React Router, React-Bootstrap, React Toast have been used.",
-      "This project is built with react-firebase hooks.",
+      "This project is built with old traditional Redux.",
+      "Plain HTML has been used for markup.",
+      "Tailwind css has been used for css styling.",
     ],
-    tech: ["React", "Redux", "React-Redux"],
+    tech: ["HTML", "Redux", "JavaScript",],
     img: "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
     images: [
       "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",

@@ -45,7 +45,7 @@ function ContactForm() {
         type="submit"
         disabled={state.submitting}
       >
-        SEND EMAIL
+        Send Message
       </button>
     </form>
   );
