@@ -5,11 +5,9 @@ import projects from "../../data/projects";
 
 export default function Project({ items }) {
   const pusher = (url) => {
-    window.open(
-      url,
-      '_blank'
-    );
+    window.open(url, "_blank");
   };
+
   return (
     <>
       {items && (
@@ -38,8 +36,7 @@ export default function Project({ items }) {
                   <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                 </span>
               </a>
-              {
-                items.link?.server &&
+              {items.link?.server && (
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -50,7 +47,7 @@ export default function Project({ items }) {
                     <VscLinkExternal className="inline ml-2 mb-1" />{" "}
                   </span>
                 </a>
-              }
+              )}
             </div>
             <p className="my-5 text-2xl font-bold">
               Screenshots of the project.
@@ -64,7 +61,7 @@ export default function Project({ items }) {
                   key={i}
                   height={300}
                   width={400}
-                  onClick={()=>pusher(img)}
+                  onClick={() => pusher(img)}
                 />
               ))}
             </div>
@@ -96,25 +93,15 @@ export default function Project({ items }) {
 }
 
 export async function getStaticPaths() {
+  const path = projects.map((project) => {
+    return {
+      params: {
+        id: `${project.id}`,
+      },
+    };
+  });
   return {
-    paths: [
-      { params: { id: "1" } },
-      { params: { id: "2" } },
-      { params: { id: "3" } },
-      { params: { id: "4" } },
-      { params: { id: "5" } },
-      { params: { id: "6" } },
-      { params: { id: "7" } },
-      { params: { id: "8" } },
-      { params: { id: "9" } },
-      { params: { id: "10" } },
-      { params: { id: "11" } },
-      { params: { id: "12" } },
-      { params: { id: "13" } },
-      { params: { id: "14" } },
-      { params: { id: "15" } },
-      { params: { id: "16" } },
-    ],
+    paths: path,
     fallback: false,
   };
 }
