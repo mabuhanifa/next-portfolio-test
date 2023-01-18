@@ -9,7 +9,7 @@ export default function Projects() {
     push(`/projects/${url}`);
   };
   return (
-    <div className="2xl:mx-40 ">
+    <div className="2xl:mx-20 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
         <h1 className="text-xl font-bold text-center my-2">Category</h1>
@@ -25,7 +25,7 @@ export default function Projects() {
           <button className="cat-btn">NEXT</button>
         </div>
       </div>
-      <div className="grid sm:grid-cols-3 gap-5 mt-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:lg:grid-cols-3 gap-5 mt-10">
         {projects.map((data, i) => {
           return (
             <div
