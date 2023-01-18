@@ -11,7 +11,7 @@ export default function Project({ items }) {
   return (
     <>
       {items && (
-        <div className="p-5 sm:px-40 dark:bg-gray-700 dark:text-gray-100 bg-gray-100 text-gray-700">
+        <div className="p-5 sm:px-40 dark:bg-gray-700 dark:text-gray-100 bg-gray-100 text-gray-700 ">
           <div className="w-full h-full ">
             <h1 className="my-10 text-4xl font-bold"> {items.name}</h1>
             <p className="my-10 text-xl font-bold">{items.info}</p>

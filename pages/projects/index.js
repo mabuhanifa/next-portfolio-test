@@ -8,7 +8,7 @@ function Projects({ projects }) {
     push(`/projects/${url}`);
   };
   return (
-    <div className="2xl:mx-40 ">
+    <div className="sm:mx-10 lg:mx-20 xl:mx-28 2xl:mx-40 mb-5 p-10">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
         <h1 className="text-xl font-bold text-center my-2">Category</h1>
@@ -24,12 +24,12 @@ function Projects({ projects }) {
           <button className="cat-btn">NEXT</button>
         </div>
       </div>
-      <div className="grid sm:grid-cols-3 gap-5 mt-10">
+      <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         {projects.map((data, i) => {
           return (
             <div
               className="p-5 bg-white rounded shadow-lg dark:text-gray-300
-               dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
+               dark:bg-[#1b232e] dark:shadow-2xl-[#101621] "
               key={i}
               onClick={() => pusher(data.id)}
             >
