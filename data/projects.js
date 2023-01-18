@@ -224,9 +224,9 @@ const projects = [
     info: "This is a Redux Toolkit Project where users can search videos and filter them by categories.",
     info_bullets: [
       "This project is built with modern Redux and Redux Toolkit.",
-      "Redux createAsyncThunk is used to fetch and execute Todo CRUD operations",
-      "Core functionality has been implemented using React and React-Redux and Redux-Toolkit Packages",
-      "This projects includes custom actions, constants and reducers.",
+      "Redux-Toolkit createAsyncThunk is used to fetch and execute Todo CRUD operations.",
+      "Core functionality has been implemented using React and React-Redux and Redux-Toolkit Packages.",
+      "This projects includes Redux Toolkit Api & Slices.",
       "Tailwind css has been used for css styling.",
     ],
     tech: [
@@ -251,22 +251,20 @@ const projects = [
   {
     id: 10,
     name: "Redux 7th",
-    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
+    info: "This is a Redux Toolkit Project where users can keep track of their expenses, search & filter them by categories.",
     info_bullets: [
-      "BiosPC is a Full Stack (MERN) web Application.",
-      "MongoDB has been used as a Database alongside Node and Express JS.",
-      "User Authentication has been implemented using Firebase.",
-      "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks.",
+      "This project is built with modern Redux and Redux Toolkit.",
+      "Redux-Toolkit createAsyncThunk is used to fetch and execute Todo CRUD operations.",
+      "Core functionality has been implemented using React and React-Redux and Redux-Toolkit Packages.",
+      "This projects includes Redux Toolkit Api & Slices.",
+      "Tailwind css has been used for css styling.",
     ],
     tech: [
       "React",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
+      "Redux",
+      "React-Redux",
+      "Redux-Toolkit",
+      "JSON-Server"
     ],
     img: "https://i.ibb.co/Dbyb240/Fullscreen-capture-1172023-124515-PM.png",
     images: [
@@ -283,13 +281,13 @@ const projects = [
   {
     id: 11,
     name: "Redux 8th",
-    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
+    info: "This is a RTK-Query Project where users can execute Todo CRUD operations with filtration.",
     info_bullets: [
-      "BiosPC is a Full Stack (MERN) web Application.",
-      "MongoDB has been used as a Database alongside Node and Express JS.",
-      "User Authentication has been implemented using Firebase.",
-      "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks.",
+      "This project is built with modern Redux and Redux Toolkit Query.",
+      "Redux-Toolkit createApi and fetchBaseQuery are used to fetch and execute Todo CRUD operations.",
+      "Core functionality has been implemented using React and React-Redux and Redux-Toolkit Packages.",
+      "This projects includes Redux Toolkit Api & Slices.",
+      "Tailwind css has been used for css styling.",
     ],
     tech: [
       "React",
