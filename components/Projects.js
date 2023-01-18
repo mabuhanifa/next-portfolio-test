@@ -25,11 +25,11 @@ export default function Projects() {
           <button className="cat-btn">NEXT</button>
         </div>
       </div>
-      <div className="grid sm:grid-cols-3 gap-5">
+      <div className="grid sm:grid-cols-3 gap-5 mt-10">
         {projects.map((data, i) => {
           return (
             <div
-              className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300
+              className="p-5 bg-white rounded-lg shadow-lg dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
               onClick={() => {
@@ -45,7 +45,7 @@ export default function Projects() {
                   className="w-96 h-60 object-cover pb-5 rounded"
                 />
               </div>
-              <h1 className="text-3xl font-bold ">{data.name}</h1>
+              <h1 className="text-2xl font-bold ">{data.name}</h1>
               <p className="py-3">{data.info}</p>
               <div className="flex justify-center">
                 <button
