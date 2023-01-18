@@ -28,7 +28,7 @@ function Projects({ projects }) {
         {projects.map((data, i) => {
           return (
             <div
-              className="p-5 bg-white rounded shadow-lg dark:text-gray-300
+              className="p-5 bg-white rounded bg-gray-200 shadow-lg dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621] "
               key={i}
               onClick={() => pusher(data.id)}
@@ -59,7 +59,7 @@ function Projects({ projects }) {
                       </span>
                     </>
                   ))}
-                  {data.tech.length >=4 && (
+                  {data.tech.length >4 && (
                     <span
                       className="bg-gray-700 px-1 py-1 mx-1 rounded dark:bg-gray-100
                      dark:text-blue-500 font-[500] text-blue-300"

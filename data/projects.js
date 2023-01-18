@@ -130,7 +130,7 @@ const projects = [
   {
     id: 5,
     name: "Redux Vanilla JavaScript",
-    info: "This is a counter app built with vanilla JavaScript and Redux.",
+    info: "This is a counter app built with vanilla JavaScript and Redux where more counters can be added.",
     info_bullets: [
       "This project is built with old traditional Redux.",
       "Plain HTML has been used for markup.",
@@ -150,13 +150,12 @@ const projects = [
   {
     id: 6,
     name: "Redux 2nd",
-    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info: "This is a small Redux Project where users can add items to cart and increase the item's quantity to see total price.",
     info_bullets: [
-      "SnapMaster is a React Single Page Application.",
-      "This website is built with React and React Router.",
-      "This project contains private route.",
-      "React, React Router, React-Bootstrap, React Toast have been used.",
-      "This project is built with react-firebase hooks.",
+      "This project is built with old traditional Redux.",
+      "Core functionality has been implemented using React and React-Redux Packages",
+      "This projects includes custom actions, constants and reducers.",
+      "Tailwind css has been used for css styling.",
     ],
     tech: ["React", "Redux", "React-Redux"],
     img: "https://i.ibb.co/4WrswC3/Fullscreen-capture-1172023-124254-PM.png",
@@ -174,6 +173,7 @@ const projects = [
     info: "This is a small Redux Project where users can search a content or filter contents by clicking on the channel or category.",
     info_bullets: [
       "This project is built with old traditional Redux.",
+      "Core functionality has been implemented using React and React-Redux Packages",
       "This projects includes custom actions, constants and reducers.",
       "Tailwind css has been used for css styling.",
     ],
@@ -192,22 +192,19 @@ const projects = [
   {
     id: 8,
     name: "Redux 4th",
-    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
+    info: "This is a Redux Project where users can execute Todo CRUD operations with filtration.",
     info_bullets: [
-      "BiosPC is a Full Stack (MERN) web Application.",
-      "MongoDB has been used as a Database alongside Node and Express JS.",
-      "User Authentication has been implemented using Firebase.",
-      "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks.",
+      "This project is built with old traditional Redux.",
+      "Redux thunkMiddleware is used to fetch and execute Todo CRUD operations",
+      "Core functionality has been implemented using React and React-Redux Packages",
+      "This projects includes custom actions, constants and reducers.",
+      "Tailwind css has been used for css styling.",
     ],
     tech: [
       "React",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
+      "React-Redux",
+      "Redux",
+      "JSON-Server"
     ],
     img: "https://i.ibb.co/w7vwqcX/Fullscreen-capture-1172023-122201-PM.png",
     images: [
@@ -217,6 +214,7 @@ const projects = [
     link: {
       live: "https://redux-4th.netlify.app",
       client: "https://github.com/mabuhanifa/lws-redux-4th",
+      server: "https://github.com/mabuhanifa/lws-json-server",
     },
   },
   {

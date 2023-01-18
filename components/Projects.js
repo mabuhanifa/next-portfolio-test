@@ -29,7 +29,7 @@ export default function Projects() {
         {projects.map((data, i) => {
           return (
             <div
-              className="p-5 bg-white rounded shadow-lg dark:text-gray-300
+              className="p-5 bg-white rounded shadow-lg bg-gray-200 dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
               onClick={() => {
