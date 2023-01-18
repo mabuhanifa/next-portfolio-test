@@ -7,7 +7,7 @@ export default function Service({ data }) {
   const Icon = icon;
   const [modal, setModal] = useState(false);
   return (
-    <div className="p-5 my-10 bg-white rounded-lg shadow-lg dark:text-gray-300 dark:bg-[#1b232e] dark:shadow-2xl-[#101621]">
+    <div className="p-5 my-10 bg-white rounded-lg shadow-2xl dark:text-gray-300 dark:bg-[#1b232e] dark:shadow-2xl-[#101621]">
       <div className="flex justify-center items-center">
         <Icon className="text-8xl" />
       </div>

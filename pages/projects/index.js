@@ -28,7 +28,7 @@ function Projects({ projects }) {
         {projects.map((data, i) => {
           return (
             <div
-              className="p-5 bg-white rounded bg-gray-200 shadow-lg dark:text-gray-300
+              className="p-5 bg-white rounded shadow-2xl dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621] "
               key={i}
               onClick={() => pusher(data.id)}
@@ -39,7 +39,7 @@ function Projects({ projects }) {
                   alt="img"
                   width={400}
                   height={400}
-                  className="w-96 h-60 object-cover pb-5 rounded"
+                  className="w-96 h-60 object-cover pb-5 rounded "
                   priority
                 />
               </div>
