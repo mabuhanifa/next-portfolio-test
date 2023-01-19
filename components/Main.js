@@ -7,8 +7,8 @@ import { TbSend } from "react-icons/tb";
 
 export default function Main() {
   return (
-    <section className="my-5 sm:flex sm:my-40 dark:text-gray-300">
-      <div className="sm:p-5 flex items-center">
+    <section className="my-5 md:grid grid-cols-12 sm:my-28">
+      <div className="sm:p-5 flex items-center col-span-1">
         {/* -----icons----- */}
         <div className="flex flex-col gap-10 text-2xl sm:mr-20">
           <a
@@ -33,7 +33,7 @@ export default function Main() {
             <RiFacebookCircleLine />
           </a>
         </div>
-        <div className="sm:hidden w-full flex justify-center items-center px-5">
+        <div className="md:hidden w-full flex justify-center items-center px-5">
           <Image
             src="/me.jpg"
             alt="me"
@@ -43,7 +43,7 @@ export default function Main() {
           />
         </div>
       </div>
-      <section className="mx-5 xl:mx-20 flex ">
+      <section className="mx-5 xl:mx-20 flex col-span-11">
         <div className="w-full mt-20 mb-10">
           <h1 className="text-4xl font-bold my-5">Mohammed Abu Hanifa</h1>
           <p className="text-2xl font-semibold my-2 dash">Web Developer</p>
@@ -65,7 +65,7 @@ export default function Main() {
             </button>
           </a>
         </div>
-        <div className="hidden w-full sm:flex justify-center items-center mx-10">
+        <div className="hidden w-full md:flex justify-center items-center mx-10">
           <Image
             src="/me.jpg"
             alt="me"

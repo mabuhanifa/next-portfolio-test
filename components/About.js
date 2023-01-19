@@ -7,7 +7,7 @@ export default function About() {
       <div>
         <h1 className="text-4xl font-bold text-center pb-10">About Me</h1>
       </div>
-      <div className="sm:grid sm:grid-cols-5 place-content-center">
+      <div className="md:grid md:grid-cols-5 place-content-center">
         <div className="col-span-2 flex justify-center">
           <Image
             src="/me2.jpg"
