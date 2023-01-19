@@ -97,22 +97,24 @@ const projects = [
   {
     id: 4,
     name: "Gadget Square",
-    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication.",
+    info: "Gadget Square is a Full-Stack(MERN) App built with Authentication and payment Gateway.",
     info_bullets: [
-      "SnapMaster is a React Single Page Application.",
-      "This website is built with React and React Router.",
-      "This project contains private route.",
+      "Gadget Square is a Full Stack MERN Application with separate Frontend and Backend system.",
+      "Backend system includes Express, Mongodb, JWT, Mongoose, bcryptjs and other technologies.",
+      "Front system includes React, Redux, React-Router, React-Bootstrap and other technologies.",
+      "This project contains payment gateway with Paypal.",
       "React, React Router, React-Bootstrap, React Toast have been used.",
-      "This project is built with react-firebase hooks.",
     ],
     tech: [
       "React",
+      "React-Bootstrap",
+      "Redux",
       "Node Js",
       "Express Js",
       "MongoDB",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
+      "Mongoose",
+      "Paypal",
+      "JWT"
     ],
     img: "https://i.ibb.co/Lk1N4w4/Fullscreen-capture-1162023-112123-AM.png",
     images: [

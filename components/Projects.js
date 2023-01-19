@@ -30,7 +30,7 @@ export default function Projects() {
         {projects.slice(0,6).map((data, i) => {
           return (
             <div
-              className="p-5 bg-white rounded shadow-lg shadow-2xl dark:text-gray-300
+              className="p-5 bg-white rounded shadow-2xl dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
               key={i}
               onClick={() => {
