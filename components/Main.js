@@ -8,9 +8,9 @@ import { TbSend } from "react-icons/tb";
 export default function Main() {
   return (
     <section className="my-5 md:grid grid-cols-12 sm:my-28">
-      <div className="sm:p-5 flex items-center col-span-1">
+      <div className="sm:pl-5 flex items-center col-span-1">
         {/* -----icons----- */}
-        <div className="flex flex-col gap-10 text-2xl sm:mr-20">
+        <div className="flex flex-col text-2xl sm:mr-20">
           <a
             href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
             target="_blank"
@@ -22,6 +22,7 @@ export default function Main() {
             href="https://github.com/mabuhanifa"
             target="_blank"
             rel="noopener noreferrer"
+            className="my-12"
           >
             <FiGithub />
           </a>
@@ -43,7 +44,7 @@ export default function Main() {
           />
         </div>
       </div>
-      <section className="mx-5 xl:mx-20 flex col-span-11">
+      <section className="mx-5 xl:mx-10 flex col-span-11">
         <div className="w-full mt-20 mb-10">
           <h1 className="text-4xl font-bold my-5">Mohammed Abu Hanifa</h1>
           <p className="text-2xl font-semibold my-2 dash">Web Developer</p>
