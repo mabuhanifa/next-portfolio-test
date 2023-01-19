@@ -60,9 +60,9 @@ export default function Projects() {
           );
         })}
       </div>
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 w-full p-5 ">
         <div>
-          <button className="bg-indigo-700 px-40 py-3 rounded text-white">
+          <button className="bg-indigo-700 px-40 py-3 rounded text-white uppercase">
             <Link href={'/projects'}>
             View All Projects
             </Link>
