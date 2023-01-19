@@ -25,13 +25,13 @@ export default function Nav() {
     }
   };
   return (
-    <div className="px-10 sm:px-28 dark:bg-gray-700 dark:text-gray-100 bg-gray-50 text-gray-700">
-      <nav className="flex flex-col sm:flex-row justify-between font-semibold">
+    <div className="px-10 md:px-20 lg:px-28 dark:bg-gray-700 dark:text-gray-100 bg-gray-50 text-gray-700">
+      <nav className="flex flex-col md:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
             <a>Abu Hanifa</a>
             <div
-              className="sm:hidden cursor-pointer"
+              className="md:hidden cursor-pointer"
               onClick={() => setMenu(!menu)}
             >
               {menu ? (
@@ -44,7 +44,7 @@ export default function Nav() {
         </div>
         <div
           className={
-            "hidden sm:flex flex-col sm:flex-row justify-between items-center gap-10"
+            "hidden md:flex flex-col md:flex-row justify-between items-center gap-10"
           }
         >
           <Link href={"/"}>Home</Link>
@@ -65,7 +65,7 @@ export default function Nav() {
         <div
           className={
             menu
-              ? "sm:hidden flex flex-col sm:flex-row justify-between items-center gap-10"
+              ? "md:hidden flex flex-col md:flex-row justify-between items-center gap-10"
               : "hidden"
           }
         >
