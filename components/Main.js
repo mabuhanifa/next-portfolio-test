@@ -48,11 +48,7 @@ export default function Main() {
           <h1 className="text-4xl font-bold my-5">Mohammed Abu Hanifa</h1>
           <p className="text-2xl font-semibold my-2 dash">Web Developer</p>
           <p className="my-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            illo incidunt autem quia optio soluta atque corrupti! Provident
-            accusamus id omnis harum nesciunt blanditiis facilis. illo incidunt
-            autem quia optio soluta atque corrupti! Provident accusamus id omnis
-            harum nesciunt blanditiis facilis.
+          Hi, I am Mohammed Abu Hanifa, a Full-Stack developer based in Dhaka, Bangladesh. I have developed many types of front-ends and full-stack applications. Most of the time, I work with MERN stack technologies.
           </p>
 
           <a
