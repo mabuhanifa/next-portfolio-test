@@ -10,11 +10,11 @@ export default function About() {
       <div className="sm:grid sm:grid-cols-5 place-content-center">
         <div className="col-span-2 flex justify-center">
           <Image
-            src="/me.jpg"
+            src="/me2.jpg"
             alt="me"
             width={384}
-            height={300}
-            className="w-96 rounded-xl object-cover"
+            height={500}
+            className="w-96  h-[500px] rounded-xl object-cover"
           />
         </div>
         <div className="mt-20 col-span-3 p-5 ">

@@ -6,11 +6,11 @@ export const data = [
   {
     id: 1,
     name: "Static Website",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem accusamus, at placeat cupiditate sint labore voluptatum iusto, quia, voluptatibus fugit doloremque quisquam ducimus explicabo!",
+    info: "Static pages are made with plain HTML, CSS and few line of Javascript!. They are also called “client-side” languages because they execute in the user’s web browser. When a user requests a page from the server with a URL, the server returns the HTML file that is specified by the URL and any accompanying CSS and/or JavaScript files.",
     list: [
-      "Static Website can be built with vanilla JavaScript,HTML and CSS",
-      "Improved performance for end users compared to dynamic websites",
-      "Static Websites are",
+      "Static Website can be built with vanilla JavaScript,HTML and CSS.",
+      "Improved performance for end users compared to dynamic websites.",
+      "Static Websites are faster and less complex than web application.",
     ],
     icon: MdWeb,
     tech: [
@@ -22,11 +22,11 @@ export const data = [
   {
     id: 2,
     name: "Single Page Application",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem accusamus, at placeat cupiditate sint labore voluptatum iusto, quia, voluptatibus fugit doloremque quisquam ducimus explicabo!",
+    info: "Single page applications (SPAs) are everywhere. Even if you're not exactly sure what they are, you most likely use them regularly — they're a great tool for making incredibly engaging and unique experiences for website users. A single page application is a website or web application that dynamically rewrites a current web page with new data from the web server.!",
     list: [
-      "Static Website can be built with vanilla JavaScript,HTML and CSS",
-      "Improved performance for end users compared to dynamic websites",
-      "Static Websites are",
+      "Single Page Application can be built with React, Redux and others packages with css stylings.",
+      "Improved functionality comes with dynamic websites and interactions.",
+      "SPA's are complex and has more features than a Static Websites.",
     ],
     icon: IoIosApps,
     tech: [
@@ -38,11 +38,11 @@ export const data = [
   {
     id: 3,
     name: "Web Application",
-    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos exercitationem accusamus, at placeat cupiditate sint labore voluptatum iusto, quia, voluptatibus fugit doloremque quisquam ducimus explicabo!",
+    info: "A Web application (Web app) is an application program that is stored on a remote server and delivered over the Internet through a browser interface. Web services are Web apps by definition and many, although not all, websites contain Web apps. Web app are made with multiple technologies and commonly a combination of both frontend and backend.",
     list: [
-      "Static Website can be built with vanilla JavaScript,HTML and CSS",
-      "Improved performance for end users compared to dynamic websites",
-      "Static Websites are",
+      "A WEB Application is a combination of frontend and backend technologies.",
+      "It can have static pages/Single Page App or combination of both.",
+      "Backend technologies are made with API and Database.",
     ],
     icon: FaServer,
     tech: [
