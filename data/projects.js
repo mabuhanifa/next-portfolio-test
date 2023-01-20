@@ -314,7 +314,7 @@ const projects = [
   },
   {
     id: 12,
-    name: "Biospc",
+    name: "JS-DOM-NEWS",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -332,11 +332,10 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/DwRn0FG/Fullscreen-capture-1202023-121536-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/DwRn0FG/Fullscreen-capture-1202023-121536-PM.png",
+      "https://i.ibb.co/MgMytG3/Fullscreen-capture-1202023-121606-PM.png",
     ],
     link: {
       live: "https://mern-last-assignment.web.app",
@@ -346,7 +345,7 @@ const projects = [
   },
   {
     id: 13,
-    name: "Biospc",
+    name: "JS-DOM-PLAYERS",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -364,11 +363,9 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/sKpDDKh/Fullscreen-capture-1202023-10549-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/sKpDDKh/Fullscreen-capture-1202023-10549-PM.png",
     ],
     link: {
       live: "https://mern-last-assignment.web.app",
