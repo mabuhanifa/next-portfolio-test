@@ -2,7 +2,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className=" flex flex-col sm:flex-row my-20 ">
+    <div className=" flex flex-col md:flex-row my-20 ">
       <div className="w-full ">
         <div className="mx-auto text-center sm:text-left w-96 sm:float-right p-10 sm:mr-20">
           <h1 className="text-3xl mt-20 font-bold">Contact Me</h1>
@@ -12,7 +12,7 @@ const Contact = () => {
           </p>
         </div>
       </div>
-      <div className="w-96 m-10 mx-auto sm:w-full">
+      <div className="w-96 m-10 mx-auto md:w-full">
         <ContactForm />
       </div>
     </div>
