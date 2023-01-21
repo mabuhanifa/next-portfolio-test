@@ -363,9 +363,9 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/sKpDDKh/Fullscreen-capture-1202023-10549-PM.png",
+    img: "https://i.ibb.co/9bmffbJ/Fullscreen-capture-1202023-10549-PM.png",
     images: [
-      "https://i.ibb.co/sKpDDKh/Fullscreen-capture-1202023-10549-PM.png",
+      "https://i.ibb.co/9bmffbJ/Fullscreen-capture-1202023-10549-PM.png",
     ],
     link: {
       live: "https://mern-last-assignment.web.app",
