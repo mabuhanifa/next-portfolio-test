@@ -375,7 +375,7 @@ const projects = [
   },
   {
     id: 14,
-    name: "Biospc",
+    name: "Context-API-Typescript",
     info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
     info_bullets: [
       "BiosPC is a Full Stack (MERN) web Application.",
@@ -393,11 +393,9 @@ const projects = [
       "Tailwind CSS",
       "DaisyUI",
     ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    img: "https://i.ibb.co/cJ6cMjs/Fullscreen-capture-1212023-41220-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/cJ6cMjs/Fullscreen-capture-1212023-41220-PM.png",
     ],
     link: {
       live: "https://mern-last-assignment.web.app",
