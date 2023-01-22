@@ -372,7 +372,7 @@ const projects = [
     info_bullets: [
       "This is a React App built with Context Api and Typescript.",
       "State has been managed with useContext and useReducer hook.",
-      "Users can add to cart and change the cart quantity.",
+      "Users can add to cart and change the cart quantity to see final price.",
       "Tailwind css has been used for css styling.",
     ],
     tech: [
@@ -396,7 +396,7 @@ const projects = [
     info_bullets: [
       "State management has been implemented by Redux-Toolkit.",
       "TypeScript is used  in both React and Redux-Toolkit.",
-      "In this app users can add to cart and change the cart quantity.",
+      "In this app users can add to cart and change the cart quantity to see final price.",
       "Tailwind css has been used for css styling.",
     ],
     tech: [
