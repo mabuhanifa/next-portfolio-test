@@ -338,7 +338,7 @@ const projects = [
   {
     id: 14,
     name: "Context-API-Typescript",
-    info: "This is a React App built with context-api and use-reducer hook.",
+    info: "This is a React Shopping Cart Application built with context-api and use-reducer hook.",
     info_bullets: [
       "This is a React App built with Context Api and Typescript.",
       "State has been managed with useContext and useReducer hook.",
@@ -399,7 +399,7 @@ const projects = [
   {
     id: 17,
     name: "Sony-HeadSet",
-    info: "This is a React SPA built with React-Router including ReChart.",
+    info: "This is a React Single Page Application built with React-Router including React ReChart.",
     info_bullets: [
       "This is a React SPA(Single Page App)",
       "This is built with React and React Router",
