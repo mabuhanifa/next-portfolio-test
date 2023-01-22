@@ -11,9 +11,9 @@ function Projects({ projects }) {
     <div className="sm:mx-10 lg:mx-20  mb-5 p-10">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
-        <h1 className="text-xl font-bold text-center my-2">Category</h1>
+        {/* <h1 className="text-xl font-bold text-center my-2">Category</h1> */}
 
-        <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
+        {/* <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
           <button className="cat-btn">STATIC-HTML</button>
           <button className="cat-btn">JS-DOM</button>
           <button className="cat-btn">FULL-STACK</button>
@@ -22,15 +22,15 @@ function Projects({ projects }) {
           <button className="cat-btn">NODE</button>
           <button className="cat-btn">EXPRESS</button>
           <button className="cat-btn">NEXT</button>
-        </div>
+        </div> */}
       </div>
       <div className="grid  md:grid-cols-2 xl:grid-cols-3 gap-5 mt-10">
-        {projects.map((data, i) => {
+        {projects.map((data) => {
           return (
             <div
+              key={data.id}
               className="p-5 bg-white rounded shadow-2xl dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621] "
-              key={i}
               onClick={() => pusher(data.id)}
             >
               <div className="flex justify-center">
@@ -59,7 +59,7 @@ function Projects({ projects }) {
                       </span>
                     </>
                   ))}
-                  {data.tech.length >4 && (
+                  {data.tech.length > 4 && (
                     <span
                       className="bg-gray-700 px-1 py-1 mx-1 rounded dark:bg-gray-100
                      dark:text-blue-500 font-[500] text-blue-300"

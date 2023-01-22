@@ -15,7 +15,7 @@ export default function Projects() {
       <div>
         <h1 className="text-xl font-bold text-center my-2">Category</h1>
 
-        <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
+        {/* <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
           <button className="cat-btn">STATIC-HTML</button>
           <button className="cat-btn">JS-DOM</button>
           <button className="cat-btn">FULL-STACK</button>
@@ -24,15 +24,15 @@ export default function Projects() {
           <button className="cat-btn">NODE</button>
           <button className="cat-btn">EXPRESS</button>
           <button className="cat-btn">NEXT</button>
-        </div>
+        </div> */}
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:lg:grid-cols-3 gap-5 mt-10">
-        {projects.slice(0,6).map((data, i) => {
+        {projects.slice(0,6).map((data) => {
           return (
             <div
               className="p-5 bg-white rounded shadow-2xl dark:text-gray-300
                dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
-              key={i}
+              key={data.id}
               onClick={() => {
                 pusher(data.id);
               }}
