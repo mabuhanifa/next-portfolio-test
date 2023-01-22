@@ -336,9 +336,8 @@ const projects = [
       "https://i.ibb.co/MgMytG3/Fullscreen-capture-1202023-121606-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      live: "https://js-dom-news.netlify.app",
+      client: "https://github.com/mabuhanifa/vanillajs-fetch-prac",
     },
   },
   {
@@ -360,9 +359,8 @@ const projects = [
       "https://i.ibb.co/9bmffbJ/Fullscreen-capture-1202023-10549-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      live: "https://select-five-dom.netlify.app",
+      client: "https://github.com/mabuhanifa/js-dom-prac",
     },
   },
   {
