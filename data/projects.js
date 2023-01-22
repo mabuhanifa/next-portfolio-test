@@ -315,13 +315,11 @@ const projects = [
   {
     id: 12,
     name: "JS-DOM-NEWS",
-    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
+    info: "JS-DOM-NEWS is a basic JavaScript DOM App that fetches data and shows them.",
     info_bullets: [
-      "BiosPC is a Full Stack (MERN) web Application.",
-      "MongoDB has been used as a Database alongside Node and Express JS.",
-      "User Authentication has been implemented using Firebase.",
-      "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks.",
+      "This app fetches data from server using fetch api.",
+      "User can add view newses by clicking on the category.",
+      "Plain HTML, CSS used for markup and styling.",
     ],
     tech: [
       "React",
@@ -348,7 +346,7 @@ const projects = [
     name: "JS-DOM-PLAYERS",
     info: "JS-DOM-PLAYERS is a basic JavaScript App where user can add players to list and calculate final cost.",
     info_bullets: [
-      "This is a basic JavaScript DOM Application.",
+      "This is a basic JavaScript Document Object Model Application.",
       "User can add players to list and calculate final cost.",
       "Plain HTML, CSS used for markup and styling.",
     ],
