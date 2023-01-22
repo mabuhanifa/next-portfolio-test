@@ -51,7 +51,7 @@ const projects = [
       "MongoDB",
       "Mongoose",
       "Paypal",
-      "JWT"
+      "JWT",
     ],
     img: "https://i.ibb.co/Lk1N4w4/Fullscreen-capture-1162023-112123-AM.png",
     images: [
@@ -138,7 +138,7 @@ const projects = [
       "Plain HTML has been used for markup.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: ["HTML", "Redux", "JavaScript",],
+    tech: ["HTML", "Redux", "JavaScript"],
     img: "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
     images: [
       "https://i.ibb.co/Q6Dx0wK/Fullscreen-capture-1172023-121844-PM.png",
@@ -203,12 +203,7 @@ const projects = [
       "This projects includes custom actions, constants and reducers.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Redux",
-      "React-Redux",
-      "JSON-Server"
-    ],
+    tech: ["React", "Redux", "React-Redux", "JSON-Server"],
     img: "https://i.ibb.co/w7vwqcX/Fullscreen-capture-1172023-122201-PM.png",
     images: [
       "https://i.ibb.co/w7vwqcX/Fullscreen-capture-1172023-122201-PM.png",
@@ -231,13 +226,7 @@ const projects = [
       "This projects includes Redux Toolkit Api & Slices.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Redux",
-      "React-Redux",
-      "Redux-Toolkit",
-      "JSON-Server"
-    ],
+    tech: ["React", "Redux", "React-Redux", "Redux-Toolkit", "JSON-Server"],
     img: "https://i.ibb.co/kqHC4wk/Fullscreen-capture-1172023-122431-PM.png",
     images: [
       "https://i.ibb.co/VYLdxWc/Fullscreen-capture-1172023-122454-PM.png",
@@ -261,13 +250,7 @@ const projects = [
       "This projects includes Redux Toolkit Api & Slices.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Redux",
-      "React-Redux",
-      "Redux-Toolkit",
-      "JSON-Server"
-    ],
+    tech: ["React", "Redux", "React-Redux", "Redux-Toolkit", "JSON-Server"],
     img: "https://i.ibb.co/Dbyb240/Fullscreen-capture-1172023-124515-PM.png",
     images: [
       "https://i.ibb.co/YB5p0ZJ/Fullscreen-capture-1172023-124524-PM.png",
@@ -349,11 +332,7 @@ const projects = [
       "User can add players to list and calculate final cost.",
       "Plain HTML, CSS used for markup and styling.",
     ],
-    tech: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    tech: ["HTML", "CSS", "JavaScript"],
     img: "https://i.ibb.co/9bmffbJ/Fullscreen-capture-1202023-10549-PM.png",
     images: [
       "https://i.ibb.co/9bmffbJ/Fullscreen-capture-1202023-10549-PM.png",
@@ -373,11 +352,7 @@ const projects = [
       "Users can add to cart and change the cart quantity to see final price.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Context-Api",
-      "Tailwind CSS",
-    ],
+    tech: ["React", "Context-Api", "Tailwind CSS"],
     img: "https://i.ibb.co/cJ6cMjs/Fullscreen-capture-1212023-41220-PM.png",
     images: [
       "https://i.ibb.co/cJ6cMjs/Fullscreen-capture-1212023-41220-PM.png",
@@ -397,12 +372,7 @@ const projects = [
       "In this app users can add to cart and change the cart quantity to see final price.",
       "Tailwind css has been used for css styling.",
     ],
-    tech: [
-      "React",
-      "Redux Toolkit",
-      "TypeScript",
-      "Tailwind CSS",
-    ],
+    tech: ["React", "Redux Toolkit", "TypeScript", "Tailwind CSS"],
     img: "https://i.ibb.co/MPD0TcF/Fullscreen-capture-1202023-120425-PM.png",
     images: [
       "https://i.ibb.co/MPD0TcF/Fullscreen-capture-1202023-120425-PM.png",
@@ -414,34 +384,23 @@ const projects = [
   },
   {
     id: 16,
-    name: "Biospc",
-    info: "Biospc is a full-stack(MERN) web Application. It allows users to buy and view the latest pc part from the data base.",
+    name: "Gym-Calculator",
+    info: "Gym-Calculator is a basic React App where users can select exercise and add time to it.",
     info_bullets: [
-      "BiosPC is a Full Stack (MERN) web Application.",
-      "MongoDB has been used as a Database alongside Node and Express JS.",
-      "User Authentication has been implemented using Firebase.",
-      "React, React Router, React Hook Form, Tailwind CSS, DaisyUI have been used.",
-      "This project is built with react-firebase hooks.",
+      "This ia React Single Page Application.",
+      "Data is manged with useState and useEffect hook.",
+      "Exercise time is also stored in localStorage.",
+      "React Toastify is used for quick notification.",
     ],
-    tech: [
-      "React",
-      "Node Js",
-      "Express Js",
-      "MongoDB",
-      "Firebase",
-      "Tailwind CSS",
-      "DaisyUI",
-    ],
-    img: "https://i.ibb.co/zGtMzNz/biospc.png",
+    tech: ["React", "React-Toastify", "Tailwind CSS"],
+    img: "https://i.ibb.co/y8wZ3G3/Fullscreen-capture-1202023-120923-PM.png",
     images: [
-      "https://i.ibb.co/ZJQHN6n/Opera-Snapshot-2022-06-11-144541-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/DbVc2yb/Opera-Snapshot-2022-06-11-144618-mern-last-assignment-web-app.png",
-      "https://i.ibb.co/dMyKhdJ/Opera-Snapshot-2022-06-11-144551-mern-last-assignment-web-app.png",
+      "https://i.ibb.co/2cCzZQJ/Fullscreen-capture-1202023-114656-AM.png",
+      "https://i.ibb.co/y8wZ3G3/Fullscreen-capture-1202023-120923-PM.png",
     ],
     link: {
-      live: "https://mern-last-assignment.web.app",
-      client: "https://github.com/mabuhanifa/BiosPC-client-side",
-      server: "https://github.com/mabuhanifa/BiosPC-server-side",
+      live: "https://gym-calculator.netlify.app",
+      client: "https://github.com/mabuhanifa/react-random-prac",
     },
   },
   {
