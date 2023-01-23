@@ -48,8 +48,8 @@ export default function Nav() {
           }
         >
           <Link href={"/"}>Home</Link>
-          <Link href={"/about"}>About</Link>
           <Link href={"/projects"}>Projects</Link>
+          <Link href={"/about"}>About</Link>
           <Link href={"/contact"}>Contact</Link>
           <div
             className="flex justify-center items-center cursor-pointer "
@@ -70,8 +70,8 @@ export default function Nav() {
           }
         >
           <Link href={"/"}>Home</Link>
-          <Link href={"/about"}>About</Link>
           <Link href={"/projects"}>Projects</Link>
+          <Link href={"/about"}>About</Link>
           <Link href={"/contact"}>Contact</Link>
           <div
             className="flex justify-center items-center cursor-pointer "

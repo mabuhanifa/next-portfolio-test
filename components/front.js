@@ -10,10 +10,10 @@ export default function Front() {
   return (
     <div>
       <Main/>
-      <About/>
       <Skills/>
       <Services/>
       <Projects/>
+      <About/>
       <Contact/>
     </div>
   )
