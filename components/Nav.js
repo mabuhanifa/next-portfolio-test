@@ -29,7 +29,7 @@ export default function Nav() {
       <nav className="flex flex-col md:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
-            <a>Abu Hanifa</a>
+            <Link href={'/'}>Abu Hanifa</Link>
             <div
               className="md:hidden cursor-pointer"
               onClick={() => setMenu(!menu)}
@@ -56,9 +56,9 @@ export default function Nav() {
             onClick={themeChanger}
           >
             {theme === "dark" ? (
-              <BsSun className="inline text-2xl" />
+              <BsSun className="inline text-xl" />
             ) : (
-              <FaMoon className="inline text-2xl" />
+              <FaMoon className="inline text-xl" />
             )}
           </div>
         </div>
@@ -78,9 +78,9 @@ export default function Nav() {
             onClick={themeChanger}
           >
             {theme === "dark" ? (
-              <BsSun className="inline text-2xl" />
+              <BsSun className="inline text-xl" />
             ) : (
-              <FaMoon className="inline text-2xl" />
+              <FaMoon className="inline text-xl" />
             )}
           </div>
         </div>

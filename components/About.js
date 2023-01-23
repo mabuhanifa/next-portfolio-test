@@ -1,6 +1,6 @@
-import Image from "next/image";
 import React from "react";
 import { AiOutlineFileText } from "react-icons/ai";
+import { ImProfile } from "react-icons/im";
 export default function About() {
   return (
     <div className="dark:text-gray-300">
@@ -8,14 +8,17 @@ export default function About() {
         <h1 className="text-4xl font-bold text-center pb-10">About Me</h1>
       </div>
       <div className="md:grid md:grid-cols-5 place-content-center">
-        <div className="col-span-2 flex justify-center">
-          <Image
+        <div className="col-span-2 flex justify-center items-center">
+          {/* <Image
             src="/me2.jpg"
             alt="me"
             width={384}
             height={500}
             className="w-96  h-[500px] rounded-xl object-cover"
-          />
+          /> */}
+          <span className="text-8xl">
+          <ImProfile/>
+          </span>
         </div>
         <div className="mt-20 col-span-3 p-5 ">
           <p className="text-lg ">
