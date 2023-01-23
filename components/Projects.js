@@ -31,7 +31,7 @@ export default function Projects() {
           return (
             <div
               className="p-5 bg-white rounded shadow-2xl dark:text-gray-300
-               dark:bg-[#1b232e] dark:shadow-2xl-[#101621]"
+               dark:bg-gray-900 dark:shadow-2xl-[#101621]"
               key={data.id}
               onClick={() => {
                 pusher(data.id);
