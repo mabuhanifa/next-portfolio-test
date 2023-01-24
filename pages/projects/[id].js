@@ -11,11 +11,11 @@ export default function Project({ items }) {
   return (
     <>
       {items && (
-        <div className="p-5 sm:px-40 dark:bg-gray-700 dark:text-gray-100  text-gray-700 ">
+        <div className="p-5 sm:px-10 md:px-20 lg:px-24 xl:px-32 dark:bg-gray-800 dark:text-gray-100  text-gray-700 ">
           <div className="w-full h-full ">
             <h1 className="my-10 text-4xl font-bold"> {items.name}</h1>
             <p className="my-10 text-xl font-bold">{items.info}</p>
-            <div className="flex flex-col sm:flex-row flex-wrap gap-10 sm:gap-20 text-blue-500 text-lg font-[500] font-firacode">
+            <div className="ml-10 md:ml-0 flex flex-col md:flex-row flex-wrap  text-blue-500 text-lg font-[500] font-firacode">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -30,6 +30,7 @@ export default function Project({ items }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 href={items.link.client}
+                className="my-5 md:my-0 md:mx-10 lg:mx-20"
               >
                 Client Side Code{" "}
                 <span className="mx-1 my-auto">
