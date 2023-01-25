@@ -1,9 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { FiGithub } from "react-icons/fi";
+import { FiDownload, FiGithub } from "react-icons/fi";
 import { ImLinkedin } from "react-icons/im";
 import { RiFacebookCircleLine } from "react-icons/ri";
-import { TbSend } from "react-icons/tb";
 
 export default function Main() {
   return (
@@ -53,7 +52,7 @@ export default function Main() {
           </p>
 
           <a
-            href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
+            href="https://drive.google.com/file/d/1DrDqOeylDZtbMh8Cd6LXHlUZuDGzMe-z/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -61,8 +60,8 @@ export default function Main() {
               className="px-10 py-5 rounded-2xl bg-gray-700 text-gray-100 my-5
             dark:bg-gray-100 dark:text-gray-700 font-bold"
             >
-              Say Hello
-              <TbSend className="inline mx-2 text-2xl" />
+              Download Resume
+              <FiDownload className="inline mx-2 text-xl ml-3 mb-1" />
             </button>
           </a>
         </div>
