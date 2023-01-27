@@ -14,17 +14,6 @@ export default function Projects() {
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
       <div>
         <h1 className="text-xl font-bold text-center my-2">Category</h1>
-
-        {/* <div className="flex justify-center flex-wrap cat-fill gap-x-5 text-sm ">
-          <button className="cat-btn">STATIC-HTML</button>
-          <button className="cat-btn">JS-DOM</button>
-          <button className="cat-btn">FULL-STACK</button>
-          <button className="cat-btn">REACT</button>
-          <button className="cat-btn">REDUX</button>
-          <button className="cat-btn">NODE</button>
-          <button className="cat-btn">EXPRESS</button>
-          <button className="cat-btn">NEXT</button>
-        </div> */}
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:lg:grid-cols-3 gap-5 mt-10">
         {projects.slice(0,6).map((data) => {
