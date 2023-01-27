@@ -1,4 +1,5 @@
 import useTheme from "next-theme";
+import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -26,6 +27,11 @@ export default function Nav() {
   };
   return (
     <div className="px-10 md:px-20 lg:px-28 dark:bg-gray-800 dark:text-gray-100 bg-gray-50 text-gray-700">
+      <Head>
+        <title>
+          Mohammed Abu Hanifa
+        </title>
+      </Head>
       <nav className="flex flex-col md:flex-row justify-between font-semibold">
         <div className="my-10">
           <div className="flex justify-between items-center">
