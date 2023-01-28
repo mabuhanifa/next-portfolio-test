@@ -68,8 +68,8 @@ const projects = [
 
   {
     id: 3,
-    name: "Gadgetarena",
-    info: "Gadgetarena is a full-stack (MERN) website that allows authorized users managing inventory of their gadgets.",
+    name: "Gadget Arena",
+    info: "Gadget Arena is a full-stack (MERN) website that allows authorized users managing inventory of their gadgets.",
     info_bullets: [
       "Gadget Arena is a Full Stack (MERN) web Application.",
       "MongoDB has been used as a Database alongside Node and Express JS.",
