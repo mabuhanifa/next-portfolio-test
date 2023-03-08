@@ -22,7 +22,7 @@ export default function About() {
           I am Mohammed Abu Hanifa, a Full-Stack Web Developer. Mostly I have worked with MERN Stack related technologies. I have a passion for building smooth and functional web applications with minimalist design. I have a good understanding of React JS and React State Management. I am always looking to learn new technologies.
           </p>
           <a
-            href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
+            href="https://www.linkedin.com/in/mohammed-abu-hanifa-4611b515b/"
             target="_blank"
             rel="noopener noreferrer"
           >

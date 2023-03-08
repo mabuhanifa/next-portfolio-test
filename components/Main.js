@@ -11,7 +11,7 @@ export default function Main() {
         {/* -----icons----- */}
         <div className="flex flex-col text-2xl sm:mr-20">
           <a
-            href="https://www.linkedin.com/in/mohammed-abuhanifa-4611b515b/"
+            href="https://www.linkedin.com/in/mohammed-abu-hanifa-4611b515b/"
             target="_blank"
             rel="noopener noreferrer"
           >
