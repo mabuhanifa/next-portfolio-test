@@ -52,7 +52,7 @@ export default function Main() {
           </p>
 
           <a
-            href="https://drive.google.com/file/d/1DrDqOeylDZtbMh8Cd6LXHlUZuDGzMe-z/view?usp=share_link"
+            href="https://drive.google.com/file/d/1qWb0qVGHICcZZYmd4Kajqg15r355jVNX/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >
