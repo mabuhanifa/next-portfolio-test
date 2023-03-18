@@ -20,7 +20,7 @@ const Skills = () => {
         Skills{" "}
       </h2>
       <div className="mt-20">
-        <div className="w-96 mx-auto sm:w-full grid grid-cols-3 sm:grid-cols-4 text-6xl sm:text-[100px] place-items-center gap-10 sm:gap-20">
+        <div className="mx-auto sm:w-full grid grid-cols-3 sm:grid-cols-4 text-6xl sm:text-[100px] place-items-center gap-10 sm:gap-20">
           <span className=" hover:text-orange-600">
             <SiHtml5 />
           </span>
