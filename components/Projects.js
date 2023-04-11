@@ -12,9 +12,6 @@ export default function Projects() {
   return (
     <div className="2xl:mx-20 ">
       <h1 className="text-3xl font-bold text-center my-10">Projects</h1>
-      <div>
-        <h1 className="text-xl font-bold text-center my-2">Category</h1>
-      </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:lg:grid-cols-3 gap-5 mt-10">
         {projects.slice(0,6).map((data) => {
           return (
@@ -51,7 +48,7 @@ export default function Projects() {
       </div>
       <div className="flex justify-center mt-10 w-full p-5 ">
         <div>
-          <button className="bg-indigo-700 px-40 py-3 rounded text-white uppercase">
+          <button className="bg-green-700 px-40 py-3 rounded text-white uppercase font-bold">
             <Link href={'/projects'}>
             View All Projects
             </Link>
